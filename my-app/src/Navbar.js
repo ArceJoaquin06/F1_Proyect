@@ -1,19 +1,18 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
+import Pilotos from "./Pilotos";
 
 function Navbar() {
     return (
       <>
-      <nav style={navStyles}>
-        <ul style={ulStyles}>
-          <li><Link to="/" style={linkStyles}>Home</Link></li>
-          <li><Link to="/register" style={linkStyles}>Register</Link></li>
-          <li><Link to="/contact" style={linkStyles}>Contact</Link></li>
+      <nav>
+        <ul>
+          <li><Link to="/">Pilotos</Link></li>
+          <li><Link to="/circuits">Circuito</Link></li>
+          <li><Link to="/championship">Campeonatos</Link></li>
         </ul>
-      </nav>
-  
-     
-  
+      </nav>  
+      
       <Outlet></Outlet>
       </>
     );
