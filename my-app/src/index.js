@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import Pilotos from './Pilotos';
 import Campeonatos from './Campeonatos';
 import Circuito from './Circuito'
+import Escuderias from './Escuderia'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
@@ -17,6 +18,7 @@ root.render(
           <Route index element={<Pilotos />} />
           <Route path="championship" element={<Campeonatos />} />
           <Route path="circuits" element={<Circuito />} />
+          <Route path="team" element={<Escuderias />} />
         </Route>
       </Routes>
     </BrowserRouter>
