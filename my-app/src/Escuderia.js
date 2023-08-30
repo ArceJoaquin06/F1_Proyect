@@ -96,8 +96,8 @@ function Escuderia() {
     
     return (
         <>
-          <label class="botonFerrari"><Link to="/williams" style={botonFerrari}>charles</Link></label>
-          <label class="botonWilliams"><Link to="/ferrari" style={botonWilliams}>charles</Link></label>
+          <label class="botonFerrari"><Link to="/ferrari" style={botonFerrari}>charles</Link></label>
+          <label class="botonWilliams"><Link to="/williams" style={botonWilliams}>charles</Link></label>
           <label class="botonRedBull"><Link to="/redbull" style={botonRedBull}>charles</Link></label>
           <label class="botonAlfaRomeo"><Link to="/alfaromeo" style={botonAlfaRomeo}>charles</Link></label>
           <label class="botonAston"><Link to="/astonmartin" style={botonAston}>charles</Link></label>
