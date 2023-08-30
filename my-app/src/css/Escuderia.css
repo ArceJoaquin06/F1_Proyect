@@ -1,0 +1,76 @@
+.botonRedBull {
+
+    position: absolute;
+    top: 560px; 
+    left: 720px; 
+    
+  }
+
+.botonAlfaRomeo {
+
+    position: relative;
+    top: 460px; 
+    left: 720px; 
+}
+
+.botonAston {
+
+    position: absolute;
+    top: 360px;
+    left: 720px; 
+    
+  }
+
+.botonWilliams {
+
+    position: relative;
+    top: 260px; 
+    left: 720px; 
+}
+
+.botonFerrari {
+
+    position: absolute;
+    top: 160px;
+    left: 720px; 
+    
+  }
+
+.botonMcLaren {
+
+    position: absolute;
+    top: 560px; 
+    left:  360px; 
+}
+
+.botonAlpine {
+
+    position: absolute;
+    top: 460px; 
+    left:  360px; 
+}
+
+
+.botonHaas {
+
+    position: absolute;
+    top: 360px;
+    left: 360px; 
+    
+}
+
+.botonMercedes {
+
+    position: absolute;
+    top: 260px; 
+    left:  360px; 
+}
+
+.botonAlphaTauri {
+
+    position: absolute;
+    top: 160px; 
+    left:  360px; 
+    
+  }
+

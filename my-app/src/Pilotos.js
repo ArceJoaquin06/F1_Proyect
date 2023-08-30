@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from 'axios';
 import { useEffect } from 'react';
+import './css/Pilotos.css';
 
 
 function Pilotos() {
@@ -18,12 +19,12 @@ function Pilotos() {
     })
     return (
         <>
-            <div>
-                <h1>F1 page</h1>
+            <div className="container">
+                <h1>F1 Page</h1>
+                <h2>Pilotos</h2>
                 {pilotList.map((usuario) =>
-                    <div>
-                        <label>{usuario.givenName}</label>
-                        <label>{usuario.familyName}</label>
+                    <div className="pilotos-container">
+                        <label>{usuario.givenName} {usuario.familyName}</label>
                     </div>)}
             </div>
             
