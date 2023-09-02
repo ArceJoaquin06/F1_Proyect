@@ -1,6 +1,6 @@
 .fondo {
   display: flex;
-  height: 230vh;
+  height: 280vh;
   background-color: #01102f;
   }
 
@@ -50,13 +50,38 @@
   margin: 100 auto;
 }
 
+.titulo-yuki{
+  font-size: 27px;
+  color: #847c94;
+  padding-left: 165px;
+  margin-right: 360px;
+  justify-content: left;
+  display: inline;
+}
+.titulo-liam{
+  font-size: 27px;
+  color: #847c94;
+  padding-left: 190px;
+  justify-content: left;
+  display: inline;
+}
+
 .texto-yuki{
   font-size: 20px;
   color: #7c839c;
-  margin-right: 260px;
+  padding-left: 195px;
+  margin-right: 600px;
+  justify-content: left;
+  display: inline-block;
 }
 
+
 .texto-liam{
-  font-size: 20px;
   color: #7c839c;
+  font-Size: 20px;
+  font-Weight: bold; 
+  text-Align: right;
+  justify-content: right;
+  padding-Right: 20px;
+  display: inline-block;
 }

@@ -30,8 +30,21 @@ function AlphaTauri() {
                     <img className="imagen-liam" src="https://sportsbase.io/images/gpfans/copy_380x388/1ab1e66a5dafb250675bf5d08f54c3cbd41c4319.png" alt=""></img>
                 </div>
                 <div>
-                    <h4 className="texto-yuki">Yuki Tsunoda</h4>
-                    <h4 className="texto-liam">Liam Lawson</h4>
+                <div>
+                    <h4 className="titulo-yuki">Yuki Tsunoda</h4>
+                    <h4 className="titulo-liam">Liam Lawson</h4>
+                </div>
+                    <h4 className="texto-yuki">Podios: 0</h4>
+                    <h4 className="texto-liam">Podios: 0</h4>
+               
+                    <h4 className="texto-yuki">Debut: 2021</h4>
+                    <h4 className="texto-liam">Debut: 2023</h4>
+                
+                    <h4 className="texto-yuki">Carreras: 57</h4>
+                    <h4 className="texto-liam">Carreras: 2</h4>
+                
+                    <h4 className="texto-yuki">Mejor puesto: 4°</h4>
+                    <h4 className="texto-liam">Mejor puesto: 13°</h4>
                 </div>
 
                 <br></br>
