@@ -8,7 +8,7 @@
 
 .botonAlfaRomeo {
 
-    position: relative;
+    position: absolute;
     top: 460px; 
     left: 720px; 
 }
@@ -23,7 +23,7 @@
 
 .botonWilliams {
 
-    position: relative;
+    position: absolute;
     top: 260px; 
     left: 720px; 
 }

@@ -1,0 +1,62 @@
+.fondo {
+  display: flex;
+  height: 230vh;
+  background-color: #01102f;
+  }
+
+.titulo{
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.subtitulo{
+  text-align: center; 
+  font-size: 27px;
+  color: #ffffff;
+}
+
+.subtitulo2{
+  text-align: center; 
+  font-size: 27px;
+  color:#4d545c;
+}
+
+.texto{
+  font-size: 20px;
+  color: #7c839c;
+}
+
+.imagen-centar {
+  width: 100%; 
+  text-align: center; 
+}
+
+.imagen-AT04 {
+  width: 300px; 
+  height: auto; 
+  margin: 0 auto; 
+}
+
+.imagen-yuki{
+  width: 500px; 
+  height: auto; 
+  margin: 0 auto;
+  margin-right: 260px
+}
+
+.imagen-liam{
+  width: 450px; 
+  height: auto; 
+  margin: 100 auto;
+}
+
+.texto-yuki{
+  font-size: 20px;
+  color: #7c839c;
+  margin-right: 260px;
+}
+
+.texto-liam{
+  font-size: 20px;
+  color: #7c839c;
+}

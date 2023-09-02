@@ -18,10 +18,6 @@ const ulStyles = {
   gap: '20px',
 };
 
-const imgf={
-  justifyContent: 'top-left',
-  width: '70px',
-}
 
 const linkStyles = {
   color: 'red',
