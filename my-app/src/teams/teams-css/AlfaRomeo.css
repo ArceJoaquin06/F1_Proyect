@@ -1,0 +1,87 @@
+.fondo1 {
+    display: flex;
+    height: 280vh;
+    background: linear-gradient(to right, #008000, #ffffff, #FF0000);
+}
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('./fonts/GreatVibes-Regular.ttf') format('truetype');
+  }
+  
+  .titulo1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .texto1{
+    font-size: 20px;
+    color: #000000;
+    text-align: center; 
+  }
+  .imagen-centra1{
+    width: 100%; 
+    text-align: center; 
+  }
+  .imagen-C43 {
+    width: 300px; 
+    height: auto; 
+    margin: 0 auto;
+  }
+  
+  .subtitulo1{
+    text-align: center; 
+    font-family: 'Great Vibes', cursive;
+    font-size: 38px;
+    color: #1f630e;
+  }
+  .imagen-bottas{
+    width: 500px; 
+    height: auto; 
+    margin: 0 auto;
+    margin-right: 260px
+  }
+  
+  .imagen-zhou{
+    width: 450px; 
+    height: auto; 
+    margin: 100 auto;
+  }
+  .titulo-bottas{
+    font-size: 32px;
+    color: #d12b1f;
+    padding-left: 165px;
+    margin-right: 360px;
+    justify-content: left;
+    display: inline;
+    font-family: 'Great Vibes', cursive;
+  }
+  .titulo-zhou{
+    font-size: 32px;
+    color: #1f630e;
+    padding-left: 190px;
+    justify-content: left;
+    display: inline;
+    font-family: 'Great Vibes', cursive;
+  }
+  
+  .texto-bottas{
+    font-size: 20px;
+    color: #7c839c;
+    padding-left: 195px;
+    margin-right: 600px;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto-zhou{
+    color: #7c839c;
+    font-Size: 20px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    padding-Right: 20px;
+    display: inline-block;
+  }

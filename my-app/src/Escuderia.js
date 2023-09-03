@@ -9,6 +9,7 @@ const botonFerrari = {
     cursor: 'pointer',
     background: 'url("https://assets.turbologo.com/blog/es/2019/10/19133021/ferrari-logo-illustration-958x575.jpg") center/cover',
     color: 'transparent',
+    
   }
 
   const botonWilliams = {
@@ -96,16 +97,66 @@ function Escuderia() {
     
     return (
         <>
-          <label class="botonFerrari"><Link to="/ferrari" style={botonFerrari}>charles</Link></label>
-          <label class="botonWilliams"><Link to="/williams" style={botonWilliams}>charles</Link></label>
-          <label class="botonRedBull"><Link to="/redbull" style={botonRedBull}>charles</Link></label>
-          <label class="botonAlfaRomeo"><Link to="/alfaromeo" style={botonAlfaRomeo}>charles</Link></label>
-          <label class="botonAston"><Link to="/astonmartin" style={botonAston}>charles</Link></label>
-          <label class="botonHaas"><Link to="/haas" style={botonHaas}>charles</Link></label>
-          <label class="botonMcLaren"><Link to="/mclaren" style={botonMcLaren}>charles</Link></label>
-          <label class="botonMercedes"><Link to="/mercedes" style={botonMercedes}>charles</Link></label>
-          <label class="botonAlphaTauri"><Link to="/alphatauri" style={botonAlphaTauri}>charles</Link></label>
-          <label class="botonAlpine"><Link to="/alpine" style={botonAlpine}>charles</Link></label>
+         <label class="botonFerrari">
+            <div style={{ display: 'flex'}}>
+              <Link to="/ferrari" style={botonFerrari}>charles</Link>
+              <h4 style={{ marginLeft: '10px' }}>Ferrari</h4>
+            </div>
+         </label>
+          <label class="botonWilliams">
+            <div style={{ display: 'flex'}}>
+              <Link to="/williams" style={botonWilliams}>charles</Link>
+              <h4 style={{ marginLeft: '10px' }}>Williams</h4>
+            </div>
+          </label>
+          <label class="botonRedBull">
+            <div style={{ display: 'flex'}}> 
+            <Link to="/redbull" style={botonRedBull}>charles</Link>
+            <h4 style={{ marginLeft: '10px' }}>Red Bull</h4>
+            </div>
+          </label>
+          <label class="botonAlfaRomeo">
+            <div style={{ display: 'flex'}}>
+              <Link to="/alfaromeo" style={botonAlfaRomeo}>charles</Link>
+              <h4 style={{ marginLeft: '10px' }}>Alfa Romeo</h4>
+            </div>
+          </label>
+          <label class="botonAston">
+            <div style={{ display: 'flex'}}>
+              <Link to="/astonmartin" style={botonAston}>charles</Link>
+              <h4 style={{ marginLeft: '10px' }}>Aston Martin</h4>
+            </div>
+          </label>
+          <label class="botonHaas">
+            <div style={{ display: 'flex'}}>
+              <Link to="/haas" style={botonHaas}>charles</Link>
+              <h4 style={{ marginLeft: '10px' }}>Haas</h4>
+            </div>
+          </label>
+          <label class="botonMcLaren">
+            <div style={{ display: 'flex'}}>
+              <Link to="/mclaren" style={botonMcLaren}>charles</Link>
+              <h4 style={{ marginLeft: '10px' }}>McLaren</h4>
+            </div>
+          </label>
+          <label class="botonMercedes">
+            <div style={{ display: 'flex'}}>
+              <Link to="/mercedes" style={botonMercedes}>charles</Link>
+              <h4 style={{ marginLeft: '10px' }}>Mercedes</h4>
+            </div>
+          </label>
+          <label class="botonAlphaTauri">
+            <div style={{ display: 'flex'}}>
+              <Link to="/alphatauri" style={botonAlphaTauri}>charles</Link>
+              <h4 style={{ marginLeft: '10px' }}>Alpha Tauri</h4>
+            </div>
+          </label>
+          <label class="botonAlpine">
+            <div style={{ display: 'flex'}}>
+              <Link to="/alpine" style={botonAlpine}>charles</Link>
+              <h4 style={{ marginLeft: '10px' }}>Alpine</h4>
+            </div>
+          </label>
         </>
     );
 }
