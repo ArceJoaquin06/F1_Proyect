@@ -21,12 +21,12 @@ function AlfaRomeo() {
                     <h1 className="subtitulo1">Monoplaza</h1>
                     <h3 className="texto1">El monoplaza Actual de esta escuderia es el C43</h3>
                     <div className="imagen-centra1">
-                        <img className="imagen-C43" src="../../../public/AlfaRomeoMonoplaza.png" alt=""></img>
+                        <img className="imagen-C43" src="https://soymotor.com/sites/default/files/styles/team_desk/public/2023-02/alfa-romeo-c43-f1-2023-soymotor_5.png?h=31f20df5&itok=npULU-2l" alt=""></img>
                     </div>
                     <h3 className="subtitulo1"> Los pilotos actules son:</h3>
                     <div>
-                        <img className="imagen-bottas" src="../../../public/AlfaRomeoBottas.png" alt=""></img>
-                        <img className="imagen-zhou" src="../../../public/AlfaRomeoZhou.jpg" alt=""></img>
+                        <img className="imagen-bottas" src="https://sportsbase.io/images/gpfans/copy_380x388/bdcddb7c11c9895ac2e74a6a1327835de9a01bf7.png" alt=""></img>
+                        <img className="imagen-zhou" src="https://sportsbase.io/images/gpfans/copy_380x388/c3d34ab3cb4148cc8b94259945233d7c2b20b509.png" alt=""></img>
                     </div>
                     <div>
                         <div>
@@ -42,7 +42,7 @@ function AlfaRomeo() {
                         <h4 className="texto-bottas">Carreras: 214</h4>
                         <h4 className="texto-zhou">Carreras: 36</h4>
                 
-                        <h4 className="texto-bottas">Mejor puesto: 2°</h4>
+                        <h4 className="texto-bottas">Mejor puesto: 1°</h4>
                         <h4 className="texto-zhou">Mejor puesto: 8°</h4>
                     </div>
 

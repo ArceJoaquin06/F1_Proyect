@@ -37,7 +37,7 @@
     color: #1f630e;
   }
   .imagen-bottas{
-    width: 500px; 
+    width: 450px;  
     height: auto; 
     margin: 0 auto;
     margin-right: 260px
@@ -68,7 +68,7 @@
   
   .texto-bottas{
     font-size: 20px;
-    color: #7c839c;
+    color: #000000;
     padding-left: 195px;
     margin-right: 600px;
     justify-content: left;
@@ -77,7 +77,7 @@
   
   
   .texto-zhou{
-    color: #7c839c;
+    color: #000000;
     font-Size: 20px;
     font-Weight: bold; 
     text-Align: right;
