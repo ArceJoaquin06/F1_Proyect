@@ -1,5 +1,8 @@
 import React from "react";
+import { useEffect } from 'react';
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import axios from 'axios';
 import './teams-css/AlphaTauri.css';
 
 const Botonregresar = {
@@ -7,9 +10,23 @@ const Botonregresar = {
     textDecoration: 'none',
     fontWeight: 'bold',
   };
-  
 
 function AlphaTauri() {
+
+    const [AlphaList, SetAlphaList] = useState([]);
+
+    function agregarCircuito() {
+        axios.get("http://ergast.com/api/f1/2023/circuits.json")
+            .then((response) => SetAlphaList(response.data.MRData.CircuitTable.Circuits))
+            .catch((error) => console.log(error))
+    }
+
+    useEffect(() => {
+        agregarCircuito();
+        console.log(AlphaList);
+
+    })
+
     return (
         <>
         <div className="fondo">

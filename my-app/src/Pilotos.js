@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from 'axios';
 import { useEffect } from 'react';
 import './css/Pilotos.css';
+import Drivers from "./UserPilots";
 
 
 function Pilotos() {
@@ -22,12 +23,9 @@ function Pilotos() {
             <div className="container">
                 <h1>F1 Page</h1>
                 <h2>Pilotos</h2>
-                {pilotList.map((usuario) =>
-                    <div className="pilotos-container">
-                        <label>{usuario.givenName} {usuario.familyName}</label>
-                    </div>)}
+                {pilotList.map((usuario) => <Drivers data={usuario}/>)}
+                    
             </div>
-            
         </>
     );
 
