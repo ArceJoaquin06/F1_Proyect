@@ -3,19 +3,23 @@ import axios from 'axios';
 import { useEffect } from 'react';
 
 function Drivers(props){
-
     const [fotopilot, setfotopilot] = useState([]);
+
+    function obtenerPagina(){
+      
+    }
 
     async function ImagenesPilots() {
         axios.get("https://en.wikipedia.org/w/api.php", {params: {
             "action": "query",
-            "titles": "Fernando_Alonso",
+            "origin": "*",
+            "titles": obtenerPagina(props.data.url),
             "prop":"pageimages",
             "format":"json",
             "pithumbsize":"200",
         }}
         )
-            .then((response) => {setfotopilot(response.pages.thumbnail.source); console.log(response.pages.thumbnail.source)})
+            .then((response) => {setfotopilot(response.data.query.pages[240390].thumbnail.source)})
             .catch((error) => console.log(error))
     }
     useEffect(() => {
@@ -31,7 +35,7 @@ function Drivers(props){
         <div>Numero: {props.data.permanentNumber}</div>
         <div>Nacionalidad: {props.data.nationality}</div>
         <div>Fecha: {props.data.dateOfBirth}</div>
-        {/* <img src={fotopilot}></img> */}
+        <img src={fotopilot}></img> 
       </ul>
       </>
     );

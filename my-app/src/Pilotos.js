@@ -13,7 +13,7 @@ function Pilotos() {
             .then((response) => setPilotList(response.data.MRData.DriverTable.Drivers))
             .catch((error) => console.log(error))
     }
-
+//29 
     useEffect(() => {
         agregarUsuario();
         console.log(pilotList);
