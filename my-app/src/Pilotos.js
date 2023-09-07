@@ -20,9 +20,9 @@ function Pilotos() {
     })
     return (
         <>
-            <div className="container">
-                <h1>F1 Page</h1>
-                <h2>Pilotos</h2>
+            <div className="fondo-pil">
+                <h1 className="titulo-pil">F1 Page</h1>
+                <h2 className="titulo-pil">Pilotos</h2>
                 {pilotList.map((usuario) => <Drivers data={usuario}/>)}
                     
             </div>

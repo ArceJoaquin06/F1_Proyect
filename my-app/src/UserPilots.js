@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from 'axios';
 import { useEffect } from 'react';
+import './css/UserPilots.css';
 
 function Drivers(props){
     const [fotopilot, setfotopilot] = useState([]);
@@ -47,14 +48,16 @@ function Drivers(props){
     
     return(
         <>
-      <ul>
-        <div>Nombre: {props.data.givenName}</div>
-        <div>Apellido: {props.data.familyName}</div>
+      <div className="card">
+      <div>
+        <img src={fotopilot}></img>
+        </div> 
+        <div>Nombre: {props.data.givenName} {props.data.familyName}</div>
         <div>Numero: {props.data.permanentNumber}</div>
         <div>Nacionalidad: {props.data.nationality}</div>
         <div>Fecha: {props.data.dateOfBirth}</div>
-        <img src={fotopilot}></img> 
-      </ul>
+        
+      </div>
       </>
     );
 }
