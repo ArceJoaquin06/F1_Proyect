@@ -4,26 +4,44 @@ import { useEffect } from 'react';
 
 function Drivers(props){
     const [fotopilot, setfotopilot] = useState([]);
-
+    
     function obtenerPagina(){
-      
+        const urlCompleta = props.data.url;
+        const urlRecortada = urlCompleta.substring(29);
+
+        return urlRecortada;
     }
 
     async function ImagenesPilots() {
         axios.get("https://en.wikipedia.org/w/api.php", {params: {
             "action": "query",
             "origin": "*",
-            "titles": obtenerPagina(props.data.url),
+            "titles": obtenerPagina(),
             "prop":"pageimages",
             "format":"json",
             "pithumbsize":"200",
         }}
         )
-            .then((response) => {setfotopilot(response.data.query.pages[240390].thumbnail.source)})
+        .then((response) => {
+            const pages = response.data.query.pages;
+            const imageSources = [];
+      
+            // Itera a través de todas las páginas y recopila las fuentes de las imágenes
+            for (const pageId in pages) {
+              const page = pages[pageId];
+              if (page.thumbnail && page.thumbnail.source) {
+                imageSources.push(page.thumbnail.source);
+              }
+            }
+      
+            // Establece las fuentes de las imágenes en el estado
+            setfotopilot(imageSources);
+          })
             .catch((error) => console.log(error))
     }
     useEffect(() => {
         ImagenesPilots();
+        obtenerPagina();
 
     })
     
