@@ -19,7 +19,7 @@ function Ferrari() {
                 <h3 className="texto4">La escuderia italiana es una por no decir de las mejores escuderias de este deporte, tanto historicamente, como 
                 a nivel de pilotos, como de liverys o de auto. Por esta escuderia han pasado pilotos como Michael Schumacher, Juan Manuel Fangio,
                 Fernando Alonso, entre muchos otros, con los cuales ha conseguido 16 mundiales de constructoras y 15 de pilotos.
-                
+            
                 </h3>
                 <h1 className="subtitulo4">Monoplaza</h1>
                 <h3 className="texto4">El monoplaza Actual de esta escuderia es el SF 23</h3>

@@ -1,0 +1,83 @@
+.fondo5 {
+    display: flex;
+    height: 280vh;
+    background: #d0caca;
+}
+
+.titulo5 {
+    text-align: center;
+    font-size: 32px;
+    color: #0f0f0f;
+}
+
+.subtitulo5{
+    text-align: center; 
+    font-size: 27px;
+    color: #0f0f0f;
+  }
+  
+  
+  .texto5{
+    text-align: center;
+    font-size: 20px;
+    color: #b82f2d;
+  }
+  
+  .imagen-centar5{
+    width: 100%; 
+    text-align: center; 
+  }
+  
+  .imagen-VF{
+    width: 300px; 
+    height: auto; 
+    margin: 0 auto; 
+  }
+  
+  .imagen-magn{
+    width: 450px; 
+    height: auto; 
+    margin: 0 auto;
+    
+  }
+  
+  .imagen-hulk{
+    width: 450px; 
+    height: auto; 
+    margin: 100 auto;
+    margin-right: 260px
+  }
+  
+  .titulo-magn{
+    font-size: 27px;
+    color: #b82f2d;
+    padding-left: 510px;
+    justify-content: left;
+    display: inline;
+  }
+  .titulo-hulk{
+    font-size: 27px;
+    color: #b82f2d;
+    padding-left: 140px;
+    justify-content: left;
+    display: inline;
+  }
+  
+  .texto-magn{
+    font-size: 20px;
+    color: #3c3737;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto-hulk{
+    color: #3c3737;
+    font-Size: 20px;
+    padding-left: 195px;
+    margin-right: 600px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    display: inline-block;
+  }
