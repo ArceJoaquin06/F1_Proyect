@@ -7,7 +7,7 @@ import Drivers from "./UserPilots";
 
 function Pilotos() {
     const [pilotList, setPilotList] = useState([]);
-
+    
     function agregarUsuario() {
         axios.get("https://ergast.com/api/f1/2023/drivers.json")
             .then((response) => setPilotList(response.data.MRData.DriverTable.Drivers))
@@ -18,6 +18,7 @@ function Pilotos() {
         agregarUsuario();
         console.log(pilotList);
     })
+
     return (
         <>
             <div className="fondo-pil">

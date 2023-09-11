@@ -48,16 +48,19 @@ function Drivers(props){
     
     return(
         <>
-      <div className="card">
-      <div>
-        <img src={fotopilot}></img>
-        </div> 
-        <div>Nombre: {props.data.givenName} {props.data.familyName}</div>
-        <div>Numero: {props.data.permanentNumber}</div>
-        <div>Nacionalidad: {props.data.nationality}</div>
-        <div>Fecha: {props.data.dateOfBirth}</div>
-        
-      </div>
+ <div className="card">
+    <div className="card-text">
+      <div>Nombre: {props.data.givenName} {props.data.familyName}</div>
+      <br></br>
+      <div>Numero: {props.data.permanentNumber}</div>
+      <br></br>
+      <div>Nacionalidad: {props.data.nationality}</div>
+      <br></br>
+      <div>Nacimiento: {props.data.dateOfBirth}</div>
+      <br></br>
+    </div>
+    <img className="card-footer-img" src={fotopilot} alt={props.data.givenName} />
+  </div>
       </>
     );
 }
