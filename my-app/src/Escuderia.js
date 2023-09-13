@@ -97,6 +97,8 @@ function Escuderia() {
     
     return (
         <>
+        <div className="fondo-escu">
+        
          <label class="botonFerrari">
             <div style={{ display: 'flex'}}>
               <Link to="/ferrari" style={botonFerrari}>charles</Link>
@@ -157,6 +159,8 @@ function Escuderia() {
               <h4 style={{ marginLeft: '10px' }}>Alpine</h4>
             </div>
           </label>
+
+          </div>
         </>
     );
 }

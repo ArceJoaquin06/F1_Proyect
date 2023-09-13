@@ -40,14 +40,14 @@ function Alpine() {
                     <h4 className="texto-ocon">Podios: 0</h4>
                     <h4 className="texto-gasly">Podios: 4</h4>
                
-                    <h4 className="texto-ocon">Debut: 2021</h4>
-                    <h4 className="texto-gasly">Debut: 2023</h4>
+                    <h4 className="texto1-ocon">Debut: 2021</h4>
+                    <h4 className="texto1-gasly">Debut: 2023</h4>
                 
-                    <h4 className="texto-ocon">Carreras: 58</h4>
-                    <h4 className="texto-gasly">Carreras: 2</h4>
+                    <h4 className="texto2-ocon">Carreras: 58</h4>
+                    <h4 className="texto2-gasly">Carreras: 2</h4>
                 
-                    <h4 className="texto-ocon">Mejor puesto: 1°</h4>
-                    <h4 className="texto-gasly">Mejor puesto: 1°</h4>
+                    <h4 className="texto3-ocon">Mejor puesto: 1°</h4>
+                    <h4 className="texto3-gasly">Mejor puesto: 1°</h4>
                 </div>
 
                 <br></br>

@@ -37,14 +37,14 @@ function Williams() {
                     <h4 className="texto-alb">Podios: 2</h4>
                     <h4 className="texto-sar">Podios: 0</h4>
                
-                    <h4 className="texto-alb">Debut: 2019</h4>
-                    <h4 className="texto-sar">Debut: 2023</h4>
+                    <h4 className="texto1-alb">Debut: 2019</h4>
+                    <h4 className="texto1-sar">Debut: 2023</h4>
                 
-                    <h4 className="texto-alb">Carreras: 74</h4>
-                    <h4 className="texto-sar">Carreras: 14</h4>
+                    <h4 className="texto2-alb">Carreras: 74</h4>
+                    <h4 className="texto2-sar">Carreras: 14</h4>
                 
-                    <h4 className="texto-alb">Mejor puesto: 3°</h4>
-                    <h4 className="texto-sar">Mejor puesto: 11°</h4>
+                    <h4 className="texto3-alb">Mejor puesto: 3°</h4>
+                    <h4 className="texto3-sar">Mejor puesto: 11°</h4>
                 </div>
 
                 <br></br>

@@ -75,7 +75,64 @@
     color: #a13833;
     font-Size: 20px;
     padding-left: 195px;
-    margin-right: 600px;
+    margin-right: 640px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    display: inline-block;
+  }
+
+  .texto1-sar{
+    font-size: 20px;
+    color: #a13833;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto1-alb{
+    color: #a13833;
+    font-Size: 20px;
+    padding-left: 195px;
+    margin-right: 610px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    display: inline-block;
+  }
+
+  .texto2-sar{
+    font-size: 20px;
+    color: #a13833;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto2-alb{
+    color: #a13833;
+    font-Size: 20px;
+    padding-left: 195px;
+    margin-right: 615px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    display: inline-block;
+  }
+
+  .texto3-sar{
+    font-size: 20px;
+    color: #a13833;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto3-alb{
+    color: #a13833;
+    font-Size: 20px;
+    padding-left: 195px;
+    margin-right: 570px;
     font-Weight: bold; 
     text-Align: right;
     justify-content: right;

@@ -39,14 +39,14 @@ function RedBull() {
                     <h4 className="texto-max">Podios: 91</h4>
                     <h4 className="texto-checo">Podios: 33</h4>
                
-                    <h4 className="texto-max">Debut: 2015</h4>
-                    <h4 className="texto-checo">Debut: 2011</h4>
+                    <h4 className="texto1-max">Debut: 2015</h4>
+                    <h4 className="texto1-checo">Debut: 2011</h4>
                 
-                    <h4 className="texto-max">Carreras: 177</h4>
-                    <h4 className="texto-checo">Carreras: 253</h4>
+                    <h4 className="texto2-max">Carreras: 177</h4>
+                    <h4 className="texto2-checo">Carreras: 253</h4>
                 
-                    <h4 className="texto-max">Mejor puesto: 1°</h4>
-                    <h4 className="texto-checo">Mejor puesto: 1°</h4>
+                    <h4 className="texto3-max">Mejor puesto: 1°</h4>
+                    <h4 className="texto3-checo">Mejor puesto: 1°</h4>
                 </div>
 
                 <br></br>

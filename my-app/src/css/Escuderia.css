@@ -1,8 +1,15 @@
+.fondo-escu {
+    background-image: url('https://rtvc-assets-radionica3.s3.amazonaws.com/s3fs-public/styles/1200x630/public/field/image/article/piola1.jpg?itok=ACUvzZ_E');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+}
+
 .botonRedBull {
 
     position: absolute;
     top: 560px; 
-    left: 720px; 
+    left: 800px; 
     
   }
 
@@ -10,14 +17,14 @@
 
     position: absolute;
     top: 460px; 
-    left: 720px; 
+    left: 800px; 
 }
 
 .botonAston {
 
     position: absolute;
     top: 360px;
-    left: 720px; 
+    left: 800px; 
     
   }
 
@@ -25,14 +32,14 @@
 
     position: absolute;
     top: 260px; 
-    left: 720px; 
+    left: 800px; 
 }
 
 .botonFerrari {
 
     position: absolute;
     top: 160px;
-    left: 720px; 
+    left: 800px; 
     
   }
 
@@ -40,14 +47,14 @@
 
     position: absolute;
     top: 560px; 
-    left:  360px; 
+    left:  450px; 
 }
 
 .botonAlpine {
 
     position: absolute;
     top: 460px; 
-    left:  360px; 
+    left:  450px; 
 }
 
 
@@ -55,7 +62,7 @@
 
     position: absolute;
     top: 360px;
-    left: 360px; 
+    left: 450px; 
     
 }
 
@@ -63,14 +70,14 @@
 
     position: absolute;
     top: 260px; 
-    left:  360px; 
+    left:  450px; 
 }
 
 .botonAlphaTauri {
 
     position: absolute;
     top: 160px; 
-    left:  360px; 
+    left:  450px; 
     
   }
 
