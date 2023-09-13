@@ -82,3 +82,59 @@
     justify-content: right;
     display: inline-block;
   }
+
+  .texto1-sainz{
+    font-size: 20px;
+    color: #4e4a54;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto1-leclerc{
+    color: #4e4a54;
+    font-Size: 20px;
+    padding-left: 195px;
+    margin-right: 582px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    display: inline-block;
+  }
+
+  .texto2-sainz{
+    font-size: 20px;
+    color: #4e4a54;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto2-leclerc{
+    color: #4e4a54;
+    font-Size: 20px;
+    padding-left: 195px;
+    margin-right: 577px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    display: inline-block;
+  }
+  .texto3-sainz{
+    font-size: 20px;
+    color: #4e4a54;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto3-leclerc{
+    color: #4e4a54;
+    font-Size: 20px;
+    padding-left: 195px;
+    margin-right: 544px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    display: inline-block;
+  }

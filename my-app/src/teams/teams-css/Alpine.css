@@ -3,14 +3,20 @@
     height: 280vh;
     background: linear-gradient(to left, #5da4e9, #e198cc);
 }
+@font-face {
+  font-family: 'Urbanist';
+  src: url('./fonts/Urbanist-VariableFont_wght.ttf') format('truetype');
+}
 
 .titulo2 {
+    font-family: 'Urbanist', cursive;
     text-align: center;
-    font-size: 32px;
+    font-size: 45px;
     color: #ffffff;
 }
 
 .subtitulo2{
+    font-family: 'Urbanist', cursive;
     text-align: center; 
     font-size: 27px;
     color: #ffffff;
@@ -48,6 +54,7 @@
   }
   
   .titulo-gasly{
+    font-family: 'Urbanist', cursive;
     font-size: 27px;
     color: #272c40;
     padding-left: 380px;
@@ -56,6 +63,7 @@
     display: inline;
   }
   .titulo-ocon{
+    font-family: 'Urbanist', cursive;
     font-size: 27px;
     color: #272c40;
     padding-left: 190px;
@@ -82,3 +90,5 @@
     padding-Right: 20px;
     display: inline-block;
   }
+
+  

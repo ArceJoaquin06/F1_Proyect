@@ -37,14 +37,14 @@ function AstonMartin() {
                     <h4 className="texto-alonso">Podios: 105</h4>
                     <h4 className="texto-stroll">Podios: 3</h4>
                
-                    <h4 className="texto-alonso">Debut: 2001</h4>
-                    <h4 className="texto-stroll">Debut: 2017</h4>
+                    <h4 className="texto1-alonso">Debut: 2001</h4>
+                    <h4 className="texto1-stroll">Debut: 2017</h4>
                 
-                    <h4 className="texto-alonso">Carreras: 370</h4>
-                    <h4 className="texto-stroll">Carreras: 137</h4>
+                    <h4 className="texto2-alonso">Carreras: 370</h4>
+                    <h4 className="texto2-stroll">Carreras: 137</h4>
                 
-                    <h4 className="texto-alonso">Mejor puesto: 1°</h4>
-                    <h4 className="texto-stroll">Mejor puesto: 3°</h4>
+                    <h4 className="texto3-alonso">Mejor puesto: 1°</h4>
+                    <h4 className="texto3-stroll">Mejor puesto: 3°</h4>
                 </div>
 
                 <br></br>

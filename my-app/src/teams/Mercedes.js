@@ -37,14 +37,14 @@ function Mercedes() {
                     <h4 className="texto-ham">Podios: 195</h4>
                     <h4 className="texto-rus">Podios: 10</h4>
                
-                    <h4 className="texto-ham">Debut: 2007</h4>
-                    <h4 className="texto-rus">Debut: 2019</h4>
+                    <h4 className="texto1-ham">Debut: 2007</h4>
+                    <h4 className="texto1-rus">Debut: 2019</h4>
                 
-                    <h4 className="texto-ham">Carreras: 324</h4>
-                    <h4 className="texto-rus">Carreras: 96</h4>
+                    <h4 className="texto2-ham">Carreras: 324</h4>
+                    <h4 className="texto2-rus">Carreras: 96</h4>
                 
-                    <h4 className="texto-ham">Mejor puesto: 1°</h4>
-                    <h4 className="texto-rus">Mejor puesto: 1°</h4>
+                    <h4 className="texto3-ham">Mejor puesto: 1°</h4>
+                    <h4 className="texto3-rus">Mejor puesto: 1°</h4>
                 </div>
 
                 <br></br>

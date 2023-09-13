@@ -3,8 +3,13 @@
     height: 280vh;
     background: #e4b88f;
 }
+@font-face {
+  font-family: 'SairaStencilOne';
+  src: url('./fonts/SairaStencilOne-Regular.ttf') format('truetype');
+}
 
 .titulo8 {
+    font-family: 'SairaStencilOne', cursive;
     text-align: center;
     font-size: 32px;
     color: #483e58;

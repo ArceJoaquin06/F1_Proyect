@@ -39,14 +39,14 @@ function Haas() {
                     <h4 className="texto-hulk">Podios: 0</h4>
                     <h4 className="texto-magn">Podios: 1</h4>
                
-                    <h4 className="texto-hulk">Debut: 2010</h4>
-                    <h4 className="texto-magn">Debut: 2014</h4>
+                    <h4 className="texto1-hulk">Debut: 2010</h4>
+                    <h4 className="texto1-magn">Debut: 2014</h4>
                 
-                    <h4 className="texto-hulk">Carreras: 198</h4>
-                    <h4 className="texto-magn">Carreras: 158</h4>
+                    <h4 className="texto2-hulk">Carreras: 198</h4>
+                    <h4 className="texto2-magn">Carreras: 158</h4>
                 
-                    <h4 className="texto-hulk">Mejor puesto: 4°</h4>
-                    <h4 className="texto-magn">Mejor puesto: 2°</h4>
+                    <h4 className="texto3-hulk">Mejor puesto: 4°</h4>
+                    <h4 className="texto3-magn">Mejor puesto: 2°</h4>
                 </div>
 
                 <br></br>

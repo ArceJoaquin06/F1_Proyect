@@ -70,13 +70,73 @@
     font-size: 20px;
     color: #000000;
     padding-left: 195px;
-    margin-right: 600px;
+    margin-right: 620px;
     justify-content: left;
     display: inline-block;
   }
   
   
   .texto-zhou{
+    color: #000000;
+    font-Size: 20px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    padding-Right: 20px;
+    display: inline-block;
+  }
+
+  .texto1-bottas{
+    font-size: 20px;
+    color: #000000;
+    padding-left: 195px;
+    margin-right: 605px;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto1-zhou{
+    color: #000000;
+    font-Size: 20px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    padding-Right: 20px;
+    display: inline-block;
+  }
+
+  .texto2-bottas{
+    font-size: 20px;
+    color: #000000;
+    padding-left: 195px;
+    margin-right: 597px;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto2-zhou{
+    color: #000000;
+    font-Size: 20px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    padding-Right: 20px;
+    display: inline-block;
+  }
+
+  .texto3-bottas{
+    font-size: 20px;
+    color: #000000;
+    padding-left: 195px;
+    margin-right: 567px;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto3-zhou{
     color: #000000;
     font-Size: 20px;
     font-Weight: bold; 

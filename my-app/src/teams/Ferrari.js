@@ -39,14 +39,14 @@ function Ferrari() {
                     <h4 className="texto-leclerc">Podios: 27</h4>
                     <h4 className="texto-sainz">Podios: 16</h4>
                
-                    <h4 className="texto-leclerc">Debut: 2018</h4>
-                    <h4 className="texto-sainz">Debut: 2015</h4>
+                    <h4 className="texto1-leclerc">Debut: 2018</h4>
+                    <h4 className="texto1-sainz">Debut: 2015</h4>
                 
-                    <h4 className="texto-leclerc">Carreras: 117</h4>
-                    <h4 className="texto-sainz">Carreras: 177</h4>
+                    <h4 className="texto2-leclerc">Carreras: 117</h4>
+                    <h4 className="texto2-sainz">Carreras: 177</h4>
                 
-                    <h4 className="texto-leclerc">Mejor puesto: 1°</h4>
-                    <h4 className="texto-sainz">Mejor puesto: 1°</h4>
+                    <h4 className="texto3-leclerc">Mejor puesto: 1°</h4>
+                    <h4 className="texto3-sainz">Mejor puesto: 1°</h4>
                 </div>
 
                 <br></br>

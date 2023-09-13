@@ -54,14 +54,14 @@ function AlphaTauri() {
                     <h4 className="texto-yuki">Podios: 0</h4>
                     <h4 className="texto-liam">Podios: 0</h4>
                
-                    <h4 className="texto-yuki">Debut: 2021</h4>
-                    <h4 className="texto-liam">Debut: 2023</h4>
+                    <h4 className="texto1-yuki">Debut: 2021</h4>
+                    <h4 className="texto1-liam">Debut: 2023</h4>
                 
-                    <h4 className="texto-yuki">Carreras: 58</h4>
-                    <h4 className="texto-liam">Carreras: 2</h4>
+                    <h4 className="texto2-yuki">Carreras: 58</h4>
+                    <h4 className="texto2-liam">Carreras: 2</h4>
                 
-                    <h4 className="texto-yuki">Mejor puesto: 4°</h4>
-                    <h4 className="texto-liam">Mejor puesto: 13°</h4>
+                    <h4 className="texto3-yuki">Mejor puesto: 4°</h4>
+                    <h4 className="texto3-liam">Mejor puesto: 13°</h4>
                 </div>
 
                 <br></br>

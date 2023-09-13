@@ -36,14 +36,14 @@ function AlfaRomeo() {
                         <h4 className="texto-bottas">Podios: 67</h4>
                         <h4 className="texto-zhou">Podios: 0</h4>
                
-                        <h4 className="texto-bottas">Debut: 2013</h4>
-                        <h4 className="texto-zhou">Debut: 2022</h4>
+                        <h4 className="texto1-bottas">Debut: 2013</h4>
+                        <h4 className="texto1-zhou">Debut: 2022</h4>
                 
-                        <h4 className="texto-bottas">Carreras: 214</h4>
-                        <h4 className="texto-zhou">Carreras: 36</h4>
+                        <h4 className="texto2-bottas">Carreras: 214</h4>
+                        <h4 className="texto2-zhou">Carreras: 36</h4>
                 
-                        <h4 className="texto-bottas">Mejor puesto: 1°</h4>
-                        <h4 className="texto-zhou">Mejor puesto: 8°</h4>
+                        <h4 className="texto3-bottas">Mejor puesto: 1°</h4>
+                        <h4 className="texto3-zhou">Mejor puesto: 8°</h4>
                     </div>
 
                     <label><Link style={Botonregresar1} to="/team">Regresar a Escuderias</Link></label>

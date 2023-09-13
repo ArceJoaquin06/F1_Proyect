@@ -75,7 +75,64 @@
     color: #3c3737;
     font-Size: 20px;
     padding-left: 195px;
-    margin-right: 600px;
+    margin-right: 620px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    display: inline-block;
+  }
+
+  .texto1-magn{
+    font-size: 20px;
+    color: #3c3737;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto1-hulk{
+    color: #3c3737;
+    font-Size: 20px;
+    padding-left: 195px;
+    margin-right: 592px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    display: inline-block;
+  }
+
+  .texto2-magn{
+    font-size: 20px;
+    color: #3c3737;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto2-hulk{
+    color: #3c3737;
+    font-Size: 20px;
+    padding-left: 195px;
+    margin-right: 583px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    display: inline-block;
+  }
+
+  .texto3-magn{
+    font-size: 20px;
+    color: #3c3737;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto3-hulk{
+    color: #3c3737;
+    font-Size: 20px;
+    padding-left: 195px;
+    margin-right: 553px;
     font-Weight: bold; 
     text-Align: right;
     justify-content: right;

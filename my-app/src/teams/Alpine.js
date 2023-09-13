@@ -16,7 +16,7 @@ function Alpine() {
         <>
           <div className="fondo2">
             <div>
-                <h1 className="titulo2">Alpine</h1>
+                <h1 className="titulo2">ALPINE</h1>
                 <h3 className="texto2">Escuderia francesa nacida de Renault su primera aparacion fue en 2021, su 
                 piloto mas reconocido fue Fernando Alonso, actualmente esta escuderia es odiada por muchos,
                 debido al mal trato y diferencias de trato que recibia el español con respecto a su compañero de equipo.

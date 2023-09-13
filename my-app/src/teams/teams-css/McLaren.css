@@ -58,7 +58,7 @@
   .titulo-norris{
     font-size: 27px;
     color: #2a2b2b;
-    padding-left: 140px;
+    padding-left: 180px;
     justify-content: left;
     display: inline;
   }
@@ -76,6 +76,61 @@
     font-Size: 20px;
     padding-left: 195px;
     margin-right: 600px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    display: inline-block;
+  }
+
+  .texto1-piastri{
+    font-size: 20px;
+    color: #53809c;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto1-norris{
+    color: #53809c;
+    font-Size: 20px;
+    padding-left: 195px;
+    margin-right: 570px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    display: inline-block;
+  }
+  .texto2-piastri{
+    font-size: 20px;
+    color: #53809c;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto2-norris{
+    color: #53809c;
+    font-Size: 20px;
+    padding-left: 195px;
+    margin-right: 573px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    display: inline-block;
+  }
+  .texto3-piastri{
+    font-size: 20px;
+    color: #53809c;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto3-norris{
+    color: #53809c;
+    font-Size: 20px;
+    padding-left: 195px;
+    margin-right: 530px;
     font-Weight: bold; 
     text-Align: right;
     justify-content: right;

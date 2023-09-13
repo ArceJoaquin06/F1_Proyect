@@ -66,7 +66,6 @@
   .texto-stroll{
     font-size: 20px;
     color: #95631d;
-    
     justify-content: left;
     display: inline-block;
   }
@@ -77,6 +76,82 @@
     font-Size: 20px;
     padding-left: 195px;
     margin-right: 600px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    display: inline-block;
+  }
+
+  .texto1-stroll{
+    font-size: 20px;
+    color: #95631d;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto1-alonso{
+    color: #95631d;
+    font-Size: 20px;
+    padding-left: 195px;
+    margin-right: 600px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    display: inline-block;
+  }
+
+  .texto1-stroll{
+    font-size: 20px;
+    color: #95631d;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto1-alonso{
+    color: #95631d;
+    font-Size: 20px;
+    padding-left: 195px;
+    margin-right: 594px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    display: inline-block;
+  }
+
+  .texto2-stroll{
+    font-size: 20px;
+    color: #95631d;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto2-alonso{
+    color: #95631d;
+    font-Size: 20px;
+    padding-left: 195px;
+    margin-right: 587px;
+    font-Weight: bold; 
+    text-Align: right;
+    justify-content: right;
+    display: inline-block;
+  }
+
+  .texto3-stroll{
+    font-size: 20px;
+    color: #95631d;
+    justify-content: left;
+    display: inline-block;
+  }
+  
+  
+  .texto3-alonso{
+    color: #95631d;
+    font-Size: 20px;
+    padding-left: 195px;
+    margin-right: 552px;
     font-Weight: bold; 
     text-Align: right;
     justify-content: right;
