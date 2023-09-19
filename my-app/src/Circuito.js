@@ -3,23 +3,9 @@ import axios from 'axios';
 import { useEffect } from 'react';
 import { ComposableMap, Geographies, Geography, Marker, Annotation, ZoomableGroup } from "react-simple-maps"
 import './css/Circuito.css';
-import ReactTooltip from "react-tooltip";
+import { Tooltip as ReactTooltip } from "react-tooltip";
 
 function Circuito() {
-
-    const Markers = [
-      {
-        markerOffset: -15,
-        name: "Sau Paulo",
-        coordinates: [-58.3816, -34.6037],
-      },
-      {
-        markerOffset: 25,
-        name: "San Francisco",
-        coordinates: [-122.419418, 37.774929],
-      },
-    ]
-
     const [circuitList, SetCircuitList] = useState([]);
     const geoUrl = "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries.json"
 
@@ -46,23 +32,38 @@ function Circuito() {
             }
           </Geographies>
           {circuitList.map((circuit) => (
-            <Marker key={circuit.circuitId} 
+            <Marker 
+                    key={circuit.circuitId} 
                     coordinates={[circuit.Location.long, circuit.Location.lat,]} 
-                    onMouseEnter={() => {
-                        setcontent(circuit.circuitName)
-                    }}
-                    onMouseLeave={() => {
-                        setcontent("");
-                    }}
-                    style={{
-                        hover: {
-                            fill: "#F53",
-                            outline: none,
-                        },
-                    }}
+                    // onMouseEnter={() => {
+                    //  setcontent(circuit.circuitName)
+                    // }}
+                    // onMouseLeave={() => {
+                    //      setcontent("");
+                    //  }}
+                    // style={{
+                    //    hover: {
+                    //          fill: "#F53",
+                    //         outline: none,
+                    //      },
+                    // }}
              >
-                <circle r={5} fill="#F00" stroke="#fff" strokeWidth={1} />
+                <circle  
+                data-tooltip-id={`tooltip-${circuit.circuitId}`}
+                r={5}
+                fill="#F00" 
+                stroke="#fff" 
+                strokeWidth={1} 
+                />
+                
+                <ReactTooltip
+                  id={`tooltip-${circuit.circuitId}`}
+                  place="bottom"
+                  content={circuit.circuitName}
+                />
+
             </Marker>
+            
           ))}
         </ComposableMap>
       )
