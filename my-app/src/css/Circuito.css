@@ -1,9 +1,5 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #18cfb1;
+.container1 {
+    background-color: #0092c4;
 }
 
 .titulo {
