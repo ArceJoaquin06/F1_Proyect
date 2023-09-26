@@ -1,12 +1,11 @@
 .fondo-escu {
-    background-image: url('https://rtvc-assets-radionica3.s3.amazonaws.com/s3fs-public/styles/1200x630/public/field/image/article/piola1.jpg?itok=ACUvzZ_E');
+    background: 'url("https://i.pinimg.com/736x/e7/28/d9/e728d9f8648fef7d304db9556bd57891.jpg") center/cover';
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center center; 
 }
 
 .botonRedBull {
-
     position: absolute;
     top: 560px; 
     left: 800px; 
