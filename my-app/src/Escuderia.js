@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './css/Escuderia.css';
+//import './css/Escuderia.css';
 
 const botonFerrari = {
     padding: '16px 36px',
@@ -97,8 +97,11 @@ function Escuderia() {
     
     return (
         <>
-        <div className="fondo-escu">
-        
+        <div style={{
+          backgroundImage: 'url("https://waifu2x.booru.pics/outfiles/f73e2d32a68fd483f08ef68a43014d3b3346ac8e_s2_n3_y1.jpg")',
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+        }}>
          <label class="botonFerrari">
             <div style={{ display: 'flex'}}>
               <Link to="/ferrari" style={botonFerrari}>charles</Link>
@@ -160,7 +163,7 @@ function Escuderia() {
             </div>
           </label>
 
-          </div>
+        </div>
         </>
     );
 }
