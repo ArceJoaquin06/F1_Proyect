@@ -30,15 +30,14 @@
 .botonWilliams {
 
     position: absolute;
-    top: 260px; 
-    left: 800px; 
+    top: 73px;
+    left: 810px; 
 }
 
 .botonFerrari {
-
     position: absolute;
-    top: 160px;
-    left: 800px; 
+    top: 73px;
+    left: 270px; 
     
   }
 
@@ -52,8 +51,8 @@
 .botonAlpine {
 
     position: absolute;
-    top: 460px; 
-    left:  450px; 
+    top: 73px;
+    left:  1080px; 
 }
 
 
@@ -68,15 +67,15 @@
 .botonMercedes {
 
     position: absolute;
-    top: 260px; 
-    left:  450px; 
+    top: 73px; 
+    left:  539px; 
 }
 
 .botonAlphaTauri {
 
     position: absolute;
-    top: 160px; 
-    left:  450px; 
+    top: 73px; 
+    left:  0px; 
     
   }
 
