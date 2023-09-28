@@ -35,14 +35,14 @@ function McLaren() {
                         <h4 className="titulo-norris">Lando Norris</h4>
                         <h4 className="titulo-piastri">Oscar Piastri</h4>
                     </div>
-                    <h4 className="texto-norris">Podios: 8</h4>
-                    <h4 className="texto-piastri">Podios: 0</h4>
+                    <h4 className="texto-norris">Podios: 9</h4>
+                    <h4 className="texto-piastri">Podios: 1</h4>
                
                     <h4 className="texto1-norris">Debut: 2019</h4>
                     <h4 className="texto1-piastri">Debut: 2023</h4>
                 
-                    <h4 className="texto2-norris">Carreras: 96</h4>
-                    <h4 className="texto2-piastri">Carreras: 14</h4>
+                    <h4 className="texto2-norris">Carreras: 99</h4>
+                    <h4 className="texto2-piastri">Carreras: 17</h4>
                 
                     <h4 className="texto3-norris">Mejor puesto: 2°</h4>
                     <h4 className="texto3-piastri">Mejor puesto: 4°</h4>

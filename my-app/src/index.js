@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Navbar from './Navbar';
 import Pilotos from './Pilotos';
-import Campeonatos from './Campeonatos';
+import Calendario from './Calendario';
 import Circuito from './Circuito'
 import Escuderias from './Escuderia'
 import Williams from './teams/Williams'
@@ -27,7 +27,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Navbar />} >
           <Route index element={<Pilotos />} />
-          <Route path="championship" element={<Campeonatos />} />
+          <Route path="calendar" element={<Calendario />} />
           <Route path="circuits" element={<Circuito />} />
           <Route path="team" element={<Escuderias />} />
           <Route path="ferrari" element={<Ferrari />} />

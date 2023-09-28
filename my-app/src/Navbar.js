@@ -40,7 +40,7 @@ function Navbar() {
           <li><img style={logo} src="https://logodownload.org/wp-content/uploads/2016/11/formula-1-logo-7.png" alt="Logo"/></li>
           <li><Link style={linkStyles} to="/">Pilotos</Link></li>
           <li><Link style={linkStyles} to="/circuits">Circuito</Link></li>
-          <li><Link style={linkStyles} to="/championship">Campeonatos</Link></li>
+          <li><Link style={linkStyles} to="/calendar">Calendario</Link></li>
           <li><Link style={linkStyles} to="/team">Escuderias</Link></li>
         </ul>
       </nav>  
