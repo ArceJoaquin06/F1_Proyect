@@ -1,51 +1,49 @@
+import { Calendar, momentLocalizer } from 'react-big-calendar';
 import React, { Component } from "react";
-import BigCalendar from "react-big-calendar";
-import moment from "moment";
+import moment from 'moment';
+import 'moment/locale/es';
+import 'react-big-calendar/lib/css/react-big-calendar.css';
 
-function Calendario() {
-    require('moment/locale/es.js');
-    const localizer = BigCalendar.momentLocalizer(moment);
+moment.locale('es');
 
-    const myEventsList= [{
-        title: "today",
-        start: new Date('2019-05-05 10:22:00'),
-        end: new Date('2019-05-05 10:42:00')
-      },
-      {
-        title: "string",
-         start: new Date('2019-05-05 12:22:00'),
-        end: new Date('2019-05-05 13:42:00')
-      }]
+const localizer = momentLocalizer(moment);
 
+const myEventsList = [
+  {
+    title: 'evaluacion de mates',
+    start: new Date('2023-09-29 10:22:00'),
+    end: new Date('2023-09-29 10:42:00'),
+  },
+  {
+    title: 'tu mama',
+    start: new Date('2023-10-02 12:22:00'),
+    end: new Date('2023-10-02 13:42:00'),
+  },
+];
 
-        
-         class EventsCalendar extends Component {
+class EventsCalendar extends Component {
   render() {
-  return (
-<div style={{height:`${400}px`}} className="bigCalendar-container">
-    <BigCalendar
-      localizer={localizer}
-      events={myEventsList}
-      startAccessor="start"
-      endAccessor="end"
-
-      messages={{
-        next: "sig",
-        previous: "ant",
-        today: "Hoy",
-        month: "Mes",
-        week: "Semana",
-        day: "Día"
-      }}
-      
-    />
-  </div>);
+    return (
+      <div style={{ height: `${400}px` }} className="bigCalendar-container">
+        <Calendar
+          localizer={localizer}
+          events={myEventsList}
+          startAccessor="start"
+          endAccessor="end"
+          messages={{
+            next: 'sig',
+            previous: 'ant',
+            today: 'Hoy',
+            month: 'Mes',
+            week: 'Semana',
+            day: 'Día',
+          }}
+        />
+      </div>
+    );
   }
 }
-     
 
-}
-
-export default Calendario;
+export default EventsCalendar;
 
 //https://malcoded.medium.com/implementa-react-big-calendar-en-tus-proyecto-con-react-js1-6-ffc36f10af5e
