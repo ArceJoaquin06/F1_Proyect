@@ -93,7 +93,10 @@ function Circuito() {
           place="bottom"
         >
           {content && (
-            <img src={carreras[content.circuitId]} alt={`Circuito ${content.circuitName}`} />
+            <div>
+              <img src={carreras[content.circuitId]} alt={`Circuito ${content.circuitName}`} />
+              <p>{content.circuitName}</p>
+            </div>
           )}
         </ReactTooltip>
       </>

@@ -10,12 +10,12 @@ const localizer = momentLocalizer(moment);
 
 const myEventsList = [
   {
-    title: 'evaluacion de mates',
+    title: 'mi cumple waza',
     start: new Date('2023-09-29 10:22:00'),
     end: new Date('2023-09-29 10:42:00'),
   },
   {
-    title: 'tu mama',
+    title: 'messi',
     start: new Date('2023-10-02 12:22:00'),
     end: new Date('2023-10-02 13:42:00'),
   },
@@ -46,4 +46,5 @@ class EventsCalendar extends Component {
 
 export default EventsCalendar;
 
-//https://malcoded.medium.com/implementa-react-big-calendar-en-tus-proyecto-con-react-js1-6-ffc36f10af5e
+//https://ergast.com/api/f1/2023
+//esa es la documentacion con la fecha y hora de las corridas de coches
