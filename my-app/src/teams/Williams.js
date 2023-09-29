@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './teams-css/Williams.css';
+import 'animate.css';
 
 function Williams() {
     const Botonregresar9 = {
@@ -25,9 +26,9 @@ function Williams() {
                     <img className="imagen-FW23" src="https://soymotor.com/sites/default/files/styles/team_desk/public/2023-02/williams-FW45-f1-2023-soymotor.png?h=31f20df5&itok=jkZQ0qtX" alt=""></img>
                 </div>
                 <h3 className="subtitulo9"> Los pilotos actules son:</h3>
-                <div>
-                    <img className="imagen-alb" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5592.png&w=350&h=254" alt=""></img>
-                    <img className="imagen-sar" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5745.png&w=350&h=254" alt=""></img>
+                <div className="contaPilot">
+                    <img className="imagen-alb" class="animate__animated animate__slideInLeft" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5592.png&w=350&h=254" alt=""></img>
+                    <img className="imagen-sar" class="animate__animated animate__slideInRight" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5745.png&w=350&h=254" alt=""></img>
                 </div>
                 <div>
                     <div>

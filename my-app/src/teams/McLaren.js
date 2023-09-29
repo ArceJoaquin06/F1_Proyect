@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './teams-css/McLaren.css';
+import 'animate.css';
 
 function McLaren() {
 
@@ -26,9 +27,9 @@ function McLaren() {
                     <img className="imagen-MCL60" src="https://soymotor.com/sites/default/files/styles/team_desk/public/2023-02/mclaren-mcl60-f1-2023-soymotor.png?h=31f20df5&itok=4aW22-2L" alt=""></img>
                 </div>
                 <h3 className="subtitulo6"> Los pilotos actules son:</h3>
-                <div>
-                    <img className="imagen-norris" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5579.png&w=350&h=254" alt=""></img>
-                    <img className="imagen-piastri" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5752.png&w=350&h=254" alt=""></img>
+                <div className="contaPilot">
+                    <img className="imagen-norris" class="animate__animated animate__slideInLeft" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5579.png&w=350&h=254" alt=""></img>
+                    <img className="imagen-piastri" class="animate__animated animate__slideInRight" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5752.png&w=350&h=254" alt=""></img>
                 </div>
                 <div>
                     <div>

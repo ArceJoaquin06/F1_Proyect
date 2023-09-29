@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './teams-css/Mercedes.css';
+import 'animate.css';
 
 function Mercedes() {
 
@@ -25,9 +26,9 @@ function Mercedes() {
                     <img className="imagen-W14" src="https://soymotor.com/sites/default/files/styles/team_desk/public/2023-02/mercedes-w14-f1-2023-soymotor.png?h=31f20df5&itok=ZbfSsEJL" alt=""></img>
                 </div>
                 <h3 className="subtitulo6"> Los pilotos actules son:</h3>
-                <div>
-                    <img className="imagen-ham" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/868.png&w=350&h=254" alt=""></img>
-                    <img className="imagen-rus" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5503.png&w=350&h=254" alt=""></img>
+                <div className="contaPilot">
+                    <img className="imagen-ham" class="animate__animated animate__slideInLeft" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/868.png&w=350&h=254" alt=""></img>
+                    <img className="imagen-rus" class="animate__animated animate__slideInRight" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5503.png&w=350&h=254" alt=""></img>
                 </div>
                 <div>
                     <div>

@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from 'axios';
 import './teams-css/AlphaTauri.css';
+import 'animate.css';
 
 const Botonregresar = {
     color: 'white',
@@ -42,9 +43,9 @@ function AlphaTauri() {
                     <img className="imagen-AT04" src="https://scuderia.alphatauri.com/wp-content/uploads/2023/02/photo-hotspot-horizontal-2023_KrbRsyk5Vf27.png" alt=""></img>
                 </div>
                 <h3 className="subtitulo0"> Los pilotos actules son:</h3>
-                <div>
-                    <img className="imagen-yuki" src="https://cdn.racingnews365.com/Riders/Tsunoda/_570x570_crop_center-center_none/f1_2023_yt_alp_lg.png?v=1677516211" alt=""></img>
-                    <img className="imagen-liam" src="https://sportsbase.io/images/gpfans/copy_380x388/1ab1e66a5dafb250675bf5d08f54c3cbd41c4319.png" alt=""></img>
+                <div className="contaPilot">
+                    <img className="imagen-yuki" class="animate__animated animate__slideInLeft" src="https://cdn.racingnews365.com/Riders/Tsunoda/_570x570_crop_center-center_none/f1_2023_yt_alp_lg.png?v=1677516211" alt=""></img>
+                    <img className="imagen-liam" class="animate__animated animate__slideInRight" src="https://sportsbase.io/images/gpfans/copy_380x388/1ab1e66a5dafb250675bf5d08f54c3cbd41c4319.png" alt=""></img>
                 </div>
                 <div>
                     <div>

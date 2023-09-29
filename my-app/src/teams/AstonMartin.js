@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './teams-css/AstonMartin.css';
+import 'animate.css';
 
 function AstonMartin() {
     const Botonregresar3 = {
@@ -25,9 +26,9 @@ function AstonMartin() {
                     <img className="imagen-AMR23" src="https://soymotor.com/sites/default/files/styles/team_desk/public/2023-02/aston-martin-amr23-f1-2023-soymotor.png?h=31f20df5&itok=3G4eUsdl" alt=""></img>
                 </div>
                 <h3 className="subtitulo2"> Los pilotos actules son:</h3>
-                <div>
-                    <img className="imagen-alonso" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/348.png&w=350&h=254" alt=""></img>
-                    <img className="imagen-stroll" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4775.png&w=350&h=254" alt=""></img>
+                <div className="contaPilot">
+                    <img className="imagen-alonso" class="animate__animated animate__slideInLeft" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/348.png&w=350&h=254" alt=""></img>
+                    <img className="imagen-stroll" class="animate__animated animate__slideInRight" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4775.png&w=350&h=254" alt=""></img>
                 </div>
                 <div>
                     <div>

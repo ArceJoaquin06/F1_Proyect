@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './teams-css/RedBull.css';
+import 'animate.css';
 
 function RedBull() {
 
@@ -27,9 +28,9 @@ function RedBull() {
                     <img className="imagen-RB19" src="https://soymotor.com/sites/default/files/styles/team_desk/public/2023-02/red-bull-rb19-f1-2023-soymotor.png?h=31f20df5&itok=KLcER5uK" alt=""></img>
                 </div>
                 <h3 className="subtitulo8"> Los pilotos actules son:</h3>
-                <div>
-                    <img className="imagen-max" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4665.png&w=350&h=254" alt=""></img>
-                    <img className="imagen-checo" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4472.png&w=350&h=254" alt=""></img>
+                <div className="contaPilot">
+                    <img className="imagen-max" class="animate__animated animate__slideInLeft" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4665.png&w=350&h=254" alt=""></img>
+                    <img className="imagen-checo" class="animate__animated animate__slideInRight" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4472.png&w=350&h=254" alt=""></img>
                 </div>
                 <div>
                     <div>

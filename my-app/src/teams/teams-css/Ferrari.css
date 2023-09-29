@@ -47,6 +47,13 @@
     margin: 100 auto;
     margin-right: 260px
   }
+
+  .contaPilot{
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: space-around;
+  }
   
   .titulo-sainz{
     font-size: 27px;

@@ -104,3 +104,6 @@ function Circuito() {
     }
 
 export default Circuito;
+
+//timelap de los circuitos en el tiempo
+//https://codepen.io/GreenSock/pen/YzxpXXM

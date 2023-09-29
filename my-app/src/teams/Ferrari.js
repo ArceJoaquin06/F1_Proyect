@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './teams-css/Ferrari.css';
+import 'animate.css';
 
 function Ferrari() {
 
@@ -27,9 +28,9 @@ function Ferrari() {
                     <img className="imagen-SF-23" src="https://soymotor.com/sites/default/files/styles/team_desk/public/2023-02/ferrari-sf23-f1-2023-soymotor.png?h=31f20df5&itok=l43EvEKXl" alt=""></img>
                 </div>
                 <h3 className="subtitulo4"> Los pilotos actules son:</h3>
-                <div>
-                    <img className="imagen-leclerc" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5498.png&w=350&h=254" alt=""></img>
-                    <img className="imagen-stroll" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4686.png&w=350&h=254" alt=""></img>
+                <div className="contaPilot">
+                    <img className="imagen-leclerc" class="animate__animated animate__slideInLeft" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5498.png&w=350&h=254" alt=""></img>
+                    <img className="imagen-stroll" class="animate__animated animate__slideInRight" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4686.png&w=350&h=254" alt=""></img>
                 </div>
                 <div>
                     <div>

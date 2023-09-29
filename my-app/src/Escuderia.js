@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import 'animate.css';
 import './css/Escuderia.css';
 
 const botonFerrari = {
@@ -100,7 +101,7 @@ function Escuderia() {
         
          <label class="botonFerrari">
             <div style={{ display: 'flex'}}>
-              <Link to="/ferrari" style={botonFerrari}>charles</Link>
+              <Link to="/ferrari" style={botonFerrari} class="animate__animated animate__bounce">charles</Link>
             </div>
          </label>
           <label class="botonWilliams">
@@ -155,3 +156,15 @@ function Escuderia() {
 }
 
 export default Escuderia;
+
+//link de la documentacion de las animaciones
+//https://animate.style/
+
+//para que se mueva a la izquierda
+//slideInLeft
+
+//para que se mueva a la derecha
+//slideInRight
+
+//pulse
+//zoomIn

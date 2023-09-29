@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './teams-css/Alpine.css';
-
+import 'animate.css';
 
 function Alpine() {
 
@@ -28,9 +28,9 @@ function Alpine() {
                     <img className="imagen-A523" src="https://soymotor.com/sites/default/files/styles/team_desk/public/2023-02/alpine-a523-f1-2023-soymotor.png?h=31f20df5&itok=-ZREBcCe" alt=""></img>
                 </div>
                 <h3 className="subtitulo2"> Los pilotos actules son:</h3>
-                <div>
-                     <img className="imagen-gasly" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5501.png&w=350&h=254" alt=""></img>
-                    <img className="imagen-ocon" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4678.png&w=350&h=254" alt=""></img>
+                <div className="contaPilot">
+                    <img className="imagen-gasly" class="animate__animated animate__slideInLeft" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5501.png&w=350&h=254" alt=""></img>
+                    <img className="imagen-ocon" class="animate__animated animate__slideInRight" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4678.png&w=350&h=254" alt=""></img>
                 </div>
                 <div>
                     <div>

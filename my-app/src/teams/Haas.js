@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './teams-css/Haas.css';
+import 'animate.css';
 
 function Haas() {
   
@@ -27,9 +28,9 @@ function Haas() {
                     <img className="imagen-VF" src="https://soymotor.com/sites/default/files/styles/team_desk/public/2023-02/haas-vf-23-f1-2023-soymotor_0.png?h=31f20df5&itok=YJzgpIwc" alt=""></img>
                 </div>
                 <h3 className="subtitulo5"> Los pilotos actules son:</h3>
-                <div>
-                    <img className="imagen-hulk" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4396.png&w=350&h=254" alt=""></img>
-                    <img className="imagen-magn" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4623.png&w=350&h=254" alt=""></img>
+                <div className="contaPilot">
+                    <img className="imagen-hulk" class="animate__animated animate__slideInLeft" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4396.png&w=350&h=254" alt=""></img>
+                    <img className="imagen-magn" class="animate__animated animate__slideInRight" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4623.png&w=350&h=254" alt=""></img>
                 </div>
                 <div>
                     <div>
