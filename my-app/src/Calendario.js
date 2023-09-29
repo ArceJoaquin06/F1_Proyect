@@ -48,3 +48,7 @@ export default EventsCalendar;
 
 //https://ergast.com/api/f1/2023
 //esa es la documentacion con la fecha y hora de las corridas de coches
+
+//react-big-calendar/lib/addons/dragAndDrop/styles
+//react-big-calendar/lib/sass/styles
+//se supone que esos son links para customizar el calendario
