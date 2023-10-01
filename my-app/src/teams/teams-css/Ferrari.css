@@ -51,97 +51,41 @@
   .contaPilot{
     display: flex;
     flex-flow: row wrap;
-
     justify-content: space-around;
   }
   
+  .contaTitle{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .contaText{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
   .titulo-sainz{
     font-size: 27px;
     color: #8e9281;
-    padding-left: 510px;
-    justify-content: left;
     display: inline;
   }
   .titulo-leclerc{
     font-size: 27px;
     color: #8e9281;
-    padding-left: 140px;
-    justify-content: left;
     display: inline;
   }
   
   .texto-sainz{
     font-size: 20px;
     color: #4e4a54;
-    
-    justify-content: left;
     display: inline-block;
+    padding-left: 40px;
   }
-  
   
   .texto-leclerc{
     color: #4e4a54;
     font-Size: 20px;
-    padding-left: 195px;
-    margin-right: 600px;
-    font-Weight: bold; 
-    text-Align: right;
-    justify-content: right;
-    display: inline-block;
-  }
-
-  .texto1-sainz{
-    font-size: 20px;
-    color: #4e4a54;
-    justify-content: left;
-    display: inline-block;
-  }
-  
-  
-  .texto1-leclerc{
-    color: #4e4a54;
-    font-Size: 20px;
-    padding-left: 195px;
-    margin-right: 582px;
-    font-Weight: bold; 
-    text-Align: right;
-    justify-content: right;
-    display: inline-block;
-  }
-
-  .texto2-sainz{
-    font-size: 20px;
-    color: #4e4a54;
-    justify-content: left;
-    display: inline-block;
-  }
-  
-  
-  .texto2-leclerc{
-    color: #4e4a54;
-    font-Size: 20px;
-    padding-left: 195px;
-    margin-right: 577px;
-    font-Weight: bold; 
-    text-Align: right;
-    justify-content: right;
-    display: inline-block;
-  }
-  .texto3-sainz{
-    font-size: 20px;
-    color: #4e4a54;
-    justify-content: left;
-    display: inline-block;
-  }
-  
-  
-  .texto3-leclerc{
-    color: #4e4a54;
-    font-Size: 20px;
-    padding-left: 195px;
-    margin-right: 544px;
-    font-Weight: bold; 
-    text-Align: right;
-    justify-content: right;
     display: inline-block;
   }

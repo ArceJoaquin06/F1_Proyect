@@ -31,21 +31,30 @@ function AstonMartin() {
                     <img className="imagen-stroll" class="animate__animated animate__slideInRight" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4775.png&w=350&h=254" alt=""></img>
                 </div>
                 <div>
-                    <div>
+                    <div className="contaTitle">
                         <h4 className="titulo-alonso">Fernando Alonso</h4>
                         <h4 className="titulo-stroll">Lance Stroll</h4>
                     </div>
-                    <h4 className="texto-alonso">Podios: 105</h4>
-                    <h4 className="texto-stroll">Podios: 3</h4>
-               
-                    <h4 className="texto1-alonso">Debut: 2001</h4>
-                    <h4 className="texto1-stroll">Debut: 2017</h4>
-                
-                    <h4 className="texto2-alonso">Carreras: 370</h4>
-                    <h4 className="texto2-stroll">Carreras: 137</h4>
-                
-                    <h4 className="texto3-alonso">Mejor puesto: 1°</h4>
-                    <h4 className="texto3-stroll">Mejor puesto: 3°</h4>
+                    <div className="contaText">
+                        <div className="texto-alonso">
+                            <h4>Podios: 105</h4>
+                            <br></br>
+                            <h4>Debut: 2001</h4>
+                            <br></br>
+                            <h4>Carreras: 370</h4>
+                            <br></br>
+                            <h4>Mejor puesto: 1°</h4>
+                        </div>
+                        <div className="texto-stroll">
+                            <h4>Podios: 3</h4>
+                            <br></br>
+                            <h4>Debut: 2017</h4>
+                            <br></br>
+                            <h4>Carreras: 137</h4>
+                            <br></br>
+                            <h4>Mejor puesto: 3°</h4>
+                        </div>
+                    </div>
                 </div>
 
                 <br></br>

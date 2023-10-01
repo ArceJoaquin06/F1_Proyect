@@ -21,7 +21,6 @@
     color: #483e58;
   }
   
-  
   .texto8{
     text-align: center;
     font-size: 20px;
@@ -56,90 +55,24 @@
   .titulo-checo{
     font-size: 27px;
     color: #2a2b2b;
-    padding-left: 510px;
-    justify-content: left;
     display: inline;
   }
+
   .titulo-max{
     font-size: 27px;
     color: #2a2b2b;
-    padding-left: 140px;
-    justify-content: left;
     display: inline;
   }
   
   .texto-checo{
     font-size: 20px;
     color: #d83931;
-    justify-content: left;
     display: inline-block;
+    padding-left: 55px;
   }
-  
   
   .texto-max{
     color: #d83931;
     font-Size: 20px;
-    padding-left: 195px;
-    margin-right: 600px;
-    font-Weight: bold; 
-    text-Align: right;
-    justify-content: right;
-    display: inline-block;
-  }
-
-  .texto1-checo{
-    font-size: 20px;
-    color: #d83931;
-    justify-content: left;
-    display: inline-block;
-  }
-  
-  
-  .texto1-max{
-    color: #d83931;
-    font-Size: 20px;
-    padding-left: 195px;
-    margin-right: 583px;
-    font-Weight: bold; 
-    text-Align: right;
-    justify-content: right;
-    display: inline-block;
-  }
-
-  .texto2-checo{
-    font-size: 20px;
-    color: #d83931;
-    justify-content: left;
-    display: inline-block;
-  }
-  
-  
-  .texto2-max{
-    color: #d83931;
-    font-Size: 20px;
-    padding-left: 195px;
-    margin-right: 576px;
-    font-Weight: bold; 
-    text-Align: right;
-    justify-content: right;
-    display: inline-block;
-  }
-
-  .texto3-checo{
-    font-size: 20px;
-    color: #d83931;
-    justify-content: left;
-    display: inline-block;
-  }
-  
-  
-  .texto3-max{
-    color: #d83931;
-    font-Size: 20px;
-    padding-left: 195px;
-    margin-right: 543px;
-    font-Weight: bold; 
-    text-Align: right;
-    justify-content: right;
     display: inline-block;
   }

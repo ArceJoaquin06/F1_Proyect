@@ -16,7 +16,6 @@
     color: #ffffff;
   }
   
-  
   .texto3{
     text-align: center;
     font-size: 20px;
@@ -51,34 +50,27 @@
   .titulo-stroll{
     font-size: 27px;
     color: #c6d3be;
-    padding-left: 510px;
-    justify-content: left;
     display: inline;
   }
+
   .titulo-alonso{
     font-size: 27px;
     color: #c6d3be;
-    padding-left: 140px;
-    justify-content: left;
     display: inline;
   }
   
   .texto-stroll{
     font-size: 20px;
     color: #95631d;
-    justify-content: left;
     display: inline-block;
+    padding-left: 80px;
   }
   
   
   .texto-alonso{
     color: #95631d;
     font-Size: 20px;
-    padding-left: 195px;
-    margin-right: 600px;
-    font-Weight: bold; 
-    text-Align: right;
-    justify-content: right;
+
     display: inline-block;
   }
 

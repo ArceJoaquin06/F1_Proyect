@@ -31,21 +31,30 @@ function Williams() {
                     <img className="imagen-sar" class="animate__animated animate__slideInRight" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5745.png&w=350&h=254" alt=""></img>
                 </div>
                 <div>
-                    <div>
+                    <div className="contaTitle">
                         <h4 className="titulo-alb">Alexander Albon</h4>
                         <h4 className="titulo-sar">Logan Sargeant</h4>
                     </div>
-                    <h4 className="texto-alb">Podios: 2</h4>
-                    <h4 className="texto-sar">Podios: 0</h4>
-               
-                    <h4 className="texto1-alb">Debut: 2019</h4>
-                    <h4 className="texto1-sar">Debut: 2023</h4>
-                
-                    <h4 className="texto2-alb">Carreras: 74</h4>
-                    <h4 className="texto2-sar">Carreras: 14</h4>
-                
-                    <h4 className="texto3-alb">Mejor puesto: 3°</h4>
-                    <h4 className="texto3-sar">Mejor puesto: 11°</h4>
+                    <div className="contaText">
+                        <div className="texto-alb">
+                            <h4>Podios: 2</h4>
+                            <br></br>
+                            <h4>Debut: 2019</h4>
+                            <br></br>
+                            <h4>Carreras: 74</h4>
+                            <br></br>
+                            <h4>Mejor puesto: 3°</h4>
+                        </div>
+                        <div className="texto-sar">
+                            <h4>Podios: 0</h4>
+                            <br></br>
+                            <h4>Debut: 2023</h4>
+                            <br></br>
+                            <h4>Carreras: 14</h4>
+                            <br></br>
+                            <h4>Mejor puesto: 11°</h4>
+                        </div>
+                    </div>
                 </div>
 
                 <br></br>

@@ -33,21 +33,30 @@ function RedBull() {
                     <img className="imagen-checo" class="animate__animated animate__slideInRight" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4472.png&w=350&h=254" alt=""></img>
                 </div>
                 <div>
-                    <div>
+                    <div className="contaTitle">
                         <h4 className="titulo-max">Max Verstappen</h4>
                         <h4 className="titulo-checo">Sergio Perez</h4>
                     </div>
-                    <h4 className="texto-max">Podios: 91</h4>
-                    <h4 className="texto-checo">Podios: 33</h4>
-               
-                    <h4 className="texto1-max">Debut: 2015</h4>
-                    <h4 className="texto1-checo">Debut: 2011</h4>
-                
-                    <h4 className="texto2-max">Carreras: 177</h4>
-                    <h4 className="texto2-checo">Carreras: 253</h4>
-                
-                    <h4 className="texto3-max">Mejor puesto: 1°</h4>
-                    <h4 className="texto3-checo">Mejor puesto: 1°</h4>
+                    <div className="contaText">
+                        <div className="texto-max">
+                            <h4>Podios: 91</h4>
+                            <br></br>
+                            <h4>Debut: 2015</h4>
+                            <br></br>
+                            <h4>Carreras: 177</h4>
+                            <br></br>
+                            <h4>Mejor puesto: 1°</h4>
+                        </div>
+                        <div className="texto-checo">
+                            <h4>Podios: 33</h4>
+                            <br></br>
+                            <h4>Debut: 2011</h4>
+                            <br></br>
+                            <h4>Carreras: 253</h4>
+                            <br></br>
+                            <h4>Mejor puesto: 1°</h4>
+                        </div>
+                    </div>
                 </div>
 
                 <br></br>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
+import './css/Navbar.css';
 
 const navStyles = {
   backgroundColor: 'black',
@@ -18,30 +19,16 @@ const ulStyles = {
   gap: '20px',
 };
 
-
-const linkStyles = {
-  color: 'red',
-  textDecoration: 'none',
-  fontWeight: 'bold',
-};
-
-const linkHoverStyles = {
-  ...linkStyles,
-  color: 'black', // Cambiamos el color a negro en el estado de hover
-};
-
-
-
 function Navbar() {
     return (
       <>
       <nav style={navStyles}>
-      <ul style={ulStyles}>
+      <ul style={ulStyles} className="boton">
           <li><img style={logo} src="https://logodownload.org/wp-content/uploads/2016/11/formula-1-logo-7.png" alt="Logo"/></li>
-          <li><Link style={linkStyles} to="/">Pilotos</Link></li>
-          <li><Link style={linkStyles} to="/circuits">Circuito</Link></li>
-          <li><Link style={linkStyles} to="/calendar">Calendario</Link></li>
-          <li><Link style={linkStyles} to="/team">Escuderias</Link></li>
+          <li><Link className="nav-link" to="/">Pilotos</Link></li> 
+          <li><Link className="nav-link" to="/circuits">Circuito</Link></li>
+          <li><Link className="nav-link" to="/calendar">Calendario</Link></li>
+          <li><Link className="nav-link" to="/team">Escuderias</Link></li>
         </ul>
       </nav>  
       

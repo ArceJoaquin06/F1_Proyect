@@ -32,21 +32,30 @@ function McLaren() {
                     <img className="imagen-piastri" class="animate__animated animate__slideInRight" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5752.png&w=350&h=254" alt=""></img>
                 </div>
                 <div>
-                    <div>
+                    <div className="contaTitle">
                         <h4 className="titulo-norris">Lando Norris</h4>
                         <h4 className="titulo-piastri">Oscar Piastri</h4>
                     </div>
-                    <h4 className="texto-norris">Podios: 9</h4>
-                    <h4 className="texto-piastri">Podios: 1</h4>
-               
-                    <h4 className="texto1-norris">Debut: 2019</h4>
-                    <h4 className="texto1-piastri">Debut: 2023</h4>
-                
-                    <h4 className="texto2-norris">Carreras: 99</h4>
-                    <h4 className="texto2-piastri">Carreras: 17</h4>
-                
-                    <h4 className="texto3-norris">Mejor puesto: 2°</h4>
-                    <h4 className="texto3-piastri">Mejor puesto: 4°</h4>
+                    <div className="contaText">
+                        <div className="texto-norris">
+                            <h4>Podios: 9</h4>
+                            <br></br>
+                            <h4>Debut: 2019</h4>
+                            <br></br>
+                            <h4>Carreras: 99</h4>
+                            <br></br>
+                            <h4>Mejor puesto: 2°</h4>
+                        </div>
+                        <div className="texto-piastri">
+                            <h4>Podios: 1</h4>
+                            <br></br>
+                            <h4>Debut: 2023</h4>
+                            <br></br>
+                            <h4>Carreras: 17</h4>
+                            <br></br>
+                            <h4>Mejor puesto: 4°</h4>
+                        </div>
+                    </div>
                 </div>
 
                 <br></br>

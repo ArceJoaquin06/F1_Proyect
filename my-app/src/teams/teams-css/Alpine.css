@@ -57,102 +57,24 @@
     font-family: 'Urbanist', cursive;
     font-size: 27px;
     color: #272c40;
-    padding-left: 550px;
-    justify-content: left;
     display: inline;
   }
   .titulo-ocon{
-    
     font-family: 'Urbanist', cursive;
     font-size: 27px;
     color: #272c40;
-    padding-left: 160px;
-    justify-content: left;
     display: inline;
-  
   }
   
   .texto-gasly{
     color: #272c40;
     font-Size: 20px;
-    font-Weight: bold; 
-    text-Align: right;
-    justify-content: right;
-    padding-Right: 20px;
     display: inline-block;
-
-    
   }
-  
-  
+
   .texto-ocon{
     font-size: 20px;
     color: #272c40;
-    padding-left: 195px;
-    margin-right: 625px;
-    justify-content: left;
-    display: inline-block;
-  }
-
-  .texto1-gasly{
-    color: #272c40;
-    font-Size: 20px;
-    font-Weight: bold; 
-    text-Align: right;
-    justify-content: right;
-    padding-Right: 20px;
-    display: inline-block;
-
-    
-  }
-  
-  .texto1-ocon{
-    font-size: 20px;
-    color: #272c40;
-    padding-left: 195px;
-    margin-right: 596px;
-    justify-content: left;
-    display: inline-block;
-  }
-
-  .texto2-gasly{
-    color: #272c40;
-    font-Size: 20px;
-    font-Weight: bold; 
-    text-Align: right;
-    justify-content: right;
-    padding-Right: 20px;
-    display: inline-block;
-
-    
-  }
-  
-  .texto2-ocon{
-    font-size: 20px;
-    color: #272c40;
-    padding-left: 195px;
-    margin-right: 599px;
-    justify-content: left;
-    display: inline-block;
-  }
-
-  .texto3-gasly{
-    color: #272c40;
-    font-Size: 20px;
-    font-Weight: bold; 
-    text-Align: right;
-    justify-content: right;
-    padding-Right: 20px;
-    display: inline-block;
-
-    
-  }
-  
-  .texto3-ocon{
-    font-size: 20px;
-    color: #272c40;
-    padding-left: 195px;
-    margin-right: 555px;
-    justify-content: left;
+    padding-left: 20px;
     display: inline-block;
   }

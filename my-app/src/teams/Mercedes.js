@@ -31,21 +31,30 @@ function Mercedes() {
                     <img className="imagen-rus" class="animate__animated animate__slideInRight" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5503.png&w=350&h=254" alt=""></img>
                 </div>
                 <div>
-                    <div>
+                    <div className="contaTitle">
                         <h4 className="titulo-ham">Lewis Hamilton</h4>
                         <h4 className="titulo-rus">George Russell</h4>
                     </div>
-                    <h4 className="texto-ham">Podios: 195</h4>
-                    <h4 className="texto-rus">Podios: 10</h4>
-               
-                    <h4 className="texto1-ham">Debut: 2007</h4>
-                    <h4 className="texto1-rus">Debut: 2019</h4>
-                
-                    <h4 className="texto2-ham">Carreras: 324</h4>
-                    <h4 className="texto2-rus">Carreras: 96</h4>
-                
-                    <h4 className="texto3-ham">Mejor puesto: 1°</h4>
-                    <h4 className="texto3-rus">Mejor puesto: 1°</h4>
+                    <div className="contaText">
+                        <div className="texto-ham">
+                            <h4>Podios: 195</h4>
+                            <br></br>
+                            <h4>Debut: 2007</h4>
+                            <br></br>
+                            <h4>Carreras: 324</h4>
+                            <br></br>
+                            <h4>Mejor puesto: 1°</h4>
+                        </div>
+                        <div className="texto-rus">
+                            <h4>Podios: 10</h4>
+                            <br></br>
+                            <h4>Debut: 2019</h4>
+                            <br></br>
+                            <h4>Carreras: 96</h4>
+                            <br></br>
+                            <h4>Mejor puesto: 1°</h4>
+                        </div>
+                    </div>
                 </div>
 
                 <br></br>

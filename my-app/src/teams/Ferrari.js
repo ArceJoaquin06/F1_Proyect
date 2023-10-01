@@ -33,21 +33,30 @@ function Ferrari() {
                     <img className="imagen-stroll" class="animate__animated animate__slideInRight" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4686.png&w=350&h=254" alt=""></img>
                 </div>
                 <div>
-                    <div>
+                    <div className="contaTitle">
                         <h4 className="titulo-leclerc">Charles Leclerc</h4>
                         <h4 className="titulo-sainz">Carlos Sainz</h4>
                     </div>
-                    <h4 className="texto-leclerc">Podios: 27</h4>
-                    <h4 className="texto-sainz">Podios: 16</h4>
-               
-                    <h4 className="texto1-leclerc">Debut: 2018</h4>
-                    <h4 className="texto1-sainz">Debut: 2015</h4>
-                
-                    <h4 className="texto2-leclerc">Carreras: 117</h4>
-                    <h4 className="texto2-sainz">Carreras: 177</h4>
-                
-                    <h4 className="texto3-leclerc">Mejor puesto: 1°</h4>
-                    <h4 className="texto3-sainz">Mejor puesto: 1°</h4>
+                    <div className="contaText">
+                        <div className="texto-leclerc">
+                            <h4>Podios: 27</h4>
+                            <br></br>
+                            <h4>Debut: 2018</h4>
+                            <br></br>
+                            <h4>Carreras: 117</h4>
+                            <br></br>
+                            <h4>Mejor puesto: 1°</h4>
+                        </div>
+                        <div className="texto-sainz">
+                            <h4>Podios: 16</h4>
+                            <br></br>
+                            <h4>Debut: 2015</h4>
+                            <br></br>
+                            <h4>Carreras: 177</h4>
+                            <br></br>
+                            <h4>Mejor puesto: 1°</h4>
+                        </div>
+                    </div>
                 </div>
 
                 <br></br>

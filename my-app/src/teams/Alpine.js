@@ -33,21 +33,30 @@ function Alpine() {
                     <img className="imagen-ocon" class="animate__animated animate__slideInRight" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4678.png&w=350&h=254" alt=""></img>
                 </div>
                 <div>
-                    <div>
+                    <div className="contaTitle">
                         <h4 className="titulo-ocon">Pierre Gasly</h4>
                         <h4 className="titulo-gasly">Esteban Ocon</h4>
                     </div>
-                    <h4 className="texto-ocon">Podios: 0</h4>
-                    <h4 className="texto-gasly">Podios: 4</h4>
-               
-                    <h4 className="texto1-ocon">Debut: 2021</h4>
-                    <h4 className="texto1-gasly">Debut: 2023</h4>
-                
-                    <h4 className="texto2-ocon">Carreras: 58</h4>
-                    <h4 className="texto2-gasly">Carreras: 2</h4>
-                
-                    <h4 className="texto3-ocon">Mejor puesto: 1°</h4>
-                    <h4 className="texto3-gasly">Mejor puesto: 1°</h4>
+                    <div className="contaText">
+                        <div className="texto-ocon">
+                            <h4>Podios: 0</h4>
+                            <br></br>
+                            <h4>Debut: 2021</h4>
+                            <br></br>
+                            <h4>Carreras: 58</h4>
+                            <br></br>
+                            <h4>Mejor puesto: 1°</h4>
+                        </div>
+                        <div className="texto-gasly">
+                            <h4>Podios: 4</h4>
+                            <br></br>
+                            <h4>Debut: 2023</h4>
+                            <br></br>
+                            <h4>Carreras: 2</h4>
+                            <br></br>
+                            <h4>Mejor puesto: 1°</h4>
+                        </div>
+                    </div>
                 </div>
 
                 <br></br>

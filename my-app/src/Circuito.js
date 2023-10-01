@@ -74,14 +74,14 @@ function Circuito() {
                     }}
                     style={{
                        hover: {
-                             fill: "#F53",
+                             fill: "#000000",
                              outline: 'none',
                          },
                     }}
              >
                 <circle
                   r={5}
-                  fill="#F00" 
+                  fill="#ff8000" 
                   stroke="#fff" 
                   strokeWidth={1} 
                 />

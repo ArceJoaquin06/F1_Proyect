@@ -33,21 +33,30 @@ function Haas() {
                     <img className="imagen-magn" class="animate__animated animate__slideInRight" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4623.png&w=350&h=254" alt=""></img>
                 </div>
                 <div>
-                    <div>
+                    <div className="contaTitle">
                         <h4 className="titulo-hulk">Nico Hulkenberg</h4>
                         <h4 className="titulo-magn">Kevin Magnussen</h4>
                     </div>
-                    <h4 className="texto-hulk">Podios: 0</h4>
-                    <h4 className="texto-magn">Podios: 1</h4>
-               
-                    <h4 className="texto1-hulk">Debut: 2010</h4>
-                    <h4 className="texto1-magn">Debut: 2014</h4>
-                
-                    <h4 className="texto2-hulk">Carreras: 198</h4>
-                    <h4 className="texto2-magn">Carreras: 158</h4>
-                
-                    <h4 className="texto3-hulk">Mejor puesto: 4°</h4>
-                    <h4 className="texto3-magn">Mejor puesto: 2°</h4>
+                    <div className="contaText">
+                        <div className="texto-hulk">
+                            <h4>Podios: 0</h4>
+                            <br></br>
+                            <h4>Debut: 2010</h4>
+                            <br></br>
+                            <h4>Carreras: 198</h4>
+                            <br></br>
+                            <h4>Mejor puesto: 4°</h4>
+                        </div>
+                        <div className="texto-magn">
+                            <h4>Podios: 1</h4>
+                            <br></br>
+                            <h4>Debut: 2014</h4>
+                            <br></br>
+                            <h4>Carreras: 158</h4>
+                            <br></br>
+                            <h4>Mejor puesto: 2°</h4>
+                        </div>
+                    </div>
                 </div>
 
                 <br></br>

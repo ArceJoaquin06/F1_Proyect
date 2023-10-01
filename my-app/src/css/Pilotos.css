@@ -28,3 +28,9 @@
     font-size: 18px;
     font-weight: bold;
 }
+
+.contacard{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}

@@ -57,7 +57,6 @@ function Drivers(props){
       <div>Nacionalidad: {props.data.nationality}</div>
       <br></br>
       <div>Nacimiento: {props.data.dateOfBirth}</div>
-      <br></br>
     </div>
     <img className="card-footer-img" src={fotopilot} alt={props.data.givenName} />
   </div>

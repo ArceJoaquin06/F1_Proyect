@@ -38,7 +38,7 @@
 }
 
 .imagen-yuki{
-  width: 500px; 
+  width: 50px; 
   height: auto; 
   margin: 0 auto;
   margin-right: 260px
@@ -53,95 +53,24 @@
 .titulo-yuki{
   font-size: 27px;
   color: #847c94;
-  padding-left: 165px;
-  margin-right: 360px;
-  justify-content: left;
   display: inline;
 }
+
 .titulo-liam{
   font-size: 27px;
   color: #847c94;
-  padding-left: 190px;
-  justify-content: left;
   display: inline;
 }
 
 .texto-yuki{
   font-size: 20px;
   color: #7c839c;
-  padding-left: 195px;
-  margin-right: 650px;
-  justify-content: left;
   display: inline-block;
 }
-
 
 .texto-liam{
   color: #7c839c;
   font-Size: 20px;
-  font-Weight: bold; 
-  text-Align: right;
-  justify-content: right;
-  padding-Right: 20px;
-  display: inline-block;
-}
-
-.texto1-yuki{
-  font-size: 20px;
-  color: #7c839c;
-  padding-left: 195px;
-  margin-right: 622px;
-  justify-content: left;
-  display: inline-block;
-}
-
-
-.texto1-liam{
-  color: #7c839c;
-  font-Size: 20px;
-  font-Weight: bold; 
-  text-Align: right;
-  justify-content: right;
-  padding-Right: 20px;
-  display: inline-block;
-}
-
-.texto2-yuki{
-  font-size: 20px;
-  color: #7c839c;
-  padding-left: 195px;
-  margin-right: 627px;
-  justify-content: left;
-  display: inline-block;
-}
-
-
-.texto2-liam{
-  color: #7c839c;
-  font-Size: 20px;
-  font-Weight: bold; 
-  text-Align: right;
-  justify-content: right;
-  padding-Right: 20px;
-  display: inline-block;
-}
-
-.texto3-yuki{
-  font-size: 20px;
-  color: #7c839c;
-  padding-left: 195px;
-  margin-right: 584px;
-  justify-content: left;
-  display: inline-block;
-}
-
-
-.texto3-liam{
-  color: #7c839c;
-  font-Size: 20px;
-  font-Weight: bold; 
-  text-Align: right;
-  justify-content: right;
-  padding-Right: 20px;
+  padding-left: 10px;
   display: inline-block;
 }

@@ -16,7 +16,6 @@
     color: #0f0f0f;
   }
   
-  
   .texto5{
     text-align: center;
     font-size: 20px;
@@ -51,90 +50,23 @@
   .titulo-magn{
     font-size: 27px;
     color: #b82f2d;
-    padding-left: 510px;
-    justify-content: left;
     display: inline;
   }
   .titulo-hulk{
     font-size: 27px;
     color: #b82f2d;
-    padding-left: 140px;
-    justify-content: left;
     display: inline;
   }
   
   .texto-magn{
     font-size: 20px;
     color: #3c3737;
-    justify-content: left;
     display: inline-block;
+    padding-left: 20px;
   }
-  
   
   .texto-hulk{
     color: #3c3737;
     font-Size: 20px;
-    padding-left: 195px;
-    margin-right: 620px;
-    font-Weight: bold; 
-    text-Align: right;
-    justify-content: right;
-    display: inline-block;
-  }
-
-  .texto1-magn{
-    font-size: 20px;
-    color: #3c3737;
-    justify-content: left;
-    display: inline-block;
-  }
-  
-  
-  .texto1-hulk{
-    color: #3c3737;
-    font-Size: 20px;
-    padding-left: 195px;
-    margin-right: 592px;
-    font-Weight: bold; 
-    text-Align: right;
-    justify-content: right;
-    display: inline-block;
-  }
-
-  .texto2-magn{
-    font-size: 20px;
-    color: #3c3737;
-    justify-content: left;
-    display: inline-block;
-  }
-  
-  
-  .texto2-hulk{
-    color: #3c3737;
-    font-Size: 20px;
-    padding-left: 195px;
-    margin-right: 583px;
-    font-Weight: bold; 
-    text-Align: right;
-    justify-content: right;
-    display: inline-block;
-  }
-
-  .texto3-magn{
-    font-size: 20px;
-    color: #3c3737;
-    justify-content: left;
-    display: inline-block;
-  }
-  
-  
-  .texto3-hulk{
-    color: #3c3737;
-    font-Size: 20px;
-    padding-left: 195px;
-    margin-right: 553px;
-    font-Weight: bold; 
-    text-Align: right;
-    justify-content: right;
     display: inline-block;
   }

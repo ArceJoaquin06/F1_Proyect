@@ -48,21 +48,30 @@ function AlphaTauri() {
                     <img className="imagen-liam" class="animate__animated animate__slideInRight" src="https://sportsbase.io/images/gpfans/copy_380x388/1ab1e66a5dafb250675bf5d08f54c3cbd41c4319.png" alt=""></img>
                 </div>
                 <div>
-                    <div>
+                    <div className="contaTitle">
                         <h4 className="titulo-yuki">Yuki Tsunoda</h4>
                         <h4 className="titulo-liam">Liam Lawson</h4>
                     </div>
-                    <h4 className="texto-yuki">Podios: 0</h4>
-                    <h4 className="texto-liam">Podios: 0</h4>
-               
-                    <h4 className="texto1-yuki">Debut: 2021</h4>
-                    <h4 className="texto1-liam">Debut: 2023</h4>
-                
-                    <h4 className="texto2-yuki">Carreras: 58</h4>
-                    <h4 className="texto2-liam">Carreras: 2</h4>
-                
-                    <h4 className="texto3-yuki">Mejor puesto: 4°</h4>
-                    <h4 className="texto3-liam">Mejor puesto: 13°</h4>
+                    <div className="contaText">
+                        <div className="texto-yuki">
+                            <h4>Podios: 0</h4>
+                            <br></br>
+                            <h4>Debut: 2021</h4>
+                            <br></br>
+                            <h4>Carreras: 58</h4>
+                            <br></br>
+                            <h4>Mejor puesto: 4°</h4>
+                        </div>
+                        <div className="texto-liam">
+                            <h4>Podios: 0</h4>
+                            <br></br>
+                            <h4>Debut: 2023</h4>
+                            <br></br>
+                            <h4>Carreras: 2</h4>
+                            <br></br>
+                            <h4>Mejor puesto: 13°</h4>
+                        </div>
+                    </div>
                 </div>
 
                 <br></br>

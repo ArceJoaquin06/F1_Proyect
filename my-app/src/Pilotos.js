@@ -24,7 +24,10 @@ function Pilotos() {
             <div className="fondo-pil">
                 <h1 className="titulo-pil">F1 Page</h1>
                 <h2 className="titulo-pil">Pilotos</h2>
-                {pilotList.map((usuario) => <Drivers data={usuario}/>)}
+                <div className="contacard">
+                    {pilotList.map((usuario) => <Drivers data={usuario}/>)}
+                </div>
+
                     
             </div>
         </>

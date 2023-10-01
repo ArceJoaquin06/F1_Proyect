@@ -30,21 +30,30 @@ function AlfaRomeo() {
                         <img className="imagen-zhou" class="animate__animated animate__slideInRight" src="https://sportsbase.io/images/gpfans/copy_380x388/c3d34ab3cb4148cc8b94259945233d7c2b20b509.png" alt=""></img>
                     </div>
                     <div>
-                        <div>
+                        <div className="contaTitle">
                             <h4 className="titulo-bottas">Valtteri Bottas</h4>
                             <h4 className="titulo-zhou">Guanyu Zhou</h4>
                         </div>
-                        <h4 className="texto-bottas">Podios: 67</h4>
-                        <h4 className="texto-zhou">Podios: 0</h4>
-               
-                        <h4 className="texto1-bottas">Debut: 2013</h4>
-                        <h4 className="texto1-zhou">Debut: 2022</h4>
-                
-                        <h4 className="texto2-bottas">Carreras: 214</h4>
-                        <h4 className="texto2-zhou">Carreras: 36</h4>
-                
-                        <h4 className="texto3-bottas">Mejor puesto: 1°</h4>
-                        <h4 className="texto3-zhou">Mejor puesto: 8°</h4>
+                        <div className="contaText">
+                            <div className="texto-bottas">
+                                <h4>Podios: 67</h4>
+                                <br></br>
+                                <h4>Debut: 2013</h4>
+                                <br></br>
+                                <h4>Carreras: 214</h4>
+                                <br></br>
+                                <h4>Mejor puesto: 1°</h4>
+                            </div>
+                            <div className="texto-zhou">
+                                <h4>Podios: 0</h4>
+                                <br></br>
+                                <h4>Debut: 2022</h4>
+                                <br></br>
+                                <h4>Carreras: 36</h4>
+                                <br></br>
+                                <h4>Mejor puesto: 8°</h4>
+                            </div>
+                        </div>
                     </div>
 
                     <label><Link style={Botonregresar1} to="/team">Regresar a Escuderias</Link></label>
