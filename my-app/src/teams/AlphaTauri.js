@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import axios from 'axios';
 import './teams-css/AlphaTauri.css';
 import 'animate.css';
+import liamLaw from '.../public/LiamLawsinropa2.png';
 
 const Botonregresar = {
     color: 'white',
@@ -44,8 +45,8 @@ function AlphaTauri() {
                 </div>
                 <h3 className="subtitulo0"> Los pilotos actules son:</h3>
                 <div className="contaPilot">
-                    <img className="imagen-yuki" class="animate__animated animate__slideInLeft" src="https://cdn.racingnews365.com/Riders/Tsunoda/_570x570_crop_center-center_none/f1_2023_yt_alp_lg.png?v=1677516211" alt=""></img>
-                    <img className="imagen-liam" class="animate__animated animate__slideInRight" src="https://sportsbase.io/images/gpfans/copy_380x388/1ab1e66a5dafb250675bf5d08f54c3cbd41c4319.png" alt=""></img>
+                    <img className="imagen-yuki" class="animate__animated animate__slideInLeft" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5652.png&w=350&h=254" alt=""></img>
+                    <img className="imagen-liam" class="animate__animated animate__slideInRight" src={liamLaw} alt=""></img>
                 </div>
                 <div>
                     <div className="contaTitle">

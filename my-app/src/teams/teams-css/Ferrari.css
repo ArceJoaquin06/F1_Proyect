@@ -23,30 +23,29 @@
     color: #4d2628;
   }
   
-  .imagen-centar4{
-    width: 100%; 
-    text-align: center; 
-  }
+.imagen-centar4{
+  width: 100%; 
+  text-align: center; 
+}
   
-  .imagen-SF-23{
-    width: 300px; 
-    height: auto; 
-    margin: 0 auto; 
-  }
+.imagen-SF-23{
+  width: 300px; 
+  height: auto; 
+  margin: 0 auto; 
+}
   
-  .imagen-sainz{
-    width: 450px; 
-    height: auto; 
-    margin: 0 auto;
-    
-  }
+.imagen-sainz{
+  width: 450px; 
+  height: auto; 
+  margin: 0 auto;
+}
   
-  .imagen-leclerc{
-    width: 450px; 
-    height: auto; 
-    margin: 100 auto;
-    margin-right: 260px
-  }
+.imagen-leclerc{
+  width: 450px; 
+  height: auto; 
+  margin: 100 auto;
+  margin-right: 260px
+}
 
   .contaPilot{
     display: flex;
