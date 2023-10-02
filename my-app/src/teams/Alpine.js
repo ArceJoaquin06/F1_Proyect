@@ -39,20 +39,20 @@ function Alpine() {
                     </div>
                     <div className="contaText">
                         <div className="texto-ocon">
-                            <h4>Podios: 0</h4>
+                            <h4>Podios: 3</h4>
                             <br></br>
-                            <h4>Debut: 2021</h4>
+                            <h4>Debut: 2016</h4>
                             <br></br>
-                            <h4>Carreras: 58</h4>
+                            <h4>Carreras: 127</h4>
                             <br></br>
                             <h4>Mejor puesto: 1°</h4>
                         </div>
                         <div className="texto-gasly">
                             <h4>Podios: 4</h4>
                             <br></br>
-                            <h4>Debut: 2023</h4>
+                            <h4>Debut: 2017</h4>
                             <br></br>
-                            <h4>Carreras: 2</h4>
+                            <h4>Carreras: 124</h4>
                             <br></br>
                             <h4>Mejor puesto: 1°</h4>
                         </div>
@@ -61,7 +61,9 @@ function Alpine() {
 
                 <br></br>
                 <br></br>
-                <label><Link style={Botonregresar2} to="/team">Regresar a Escuderias</Link></label>
+                <div className="xd">
+                <label><Link className="boton-return" style={Botonregresar2} to="/team">Regresar a Escuderias</Link></label>
+                </div>
             </div>
         </div>
         </>

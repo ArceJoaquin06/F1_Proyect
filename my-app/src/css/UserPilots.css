@@ -1,12 +1,25 @@
 .card {
-  display: flex; /* Utiliza flexbox para alinear la imagen y el texto en una fila */
+  display: flex;
   border: 1px solid #ccc;
   border-radius: 8px;
   margin: 20px;
   padding: 20px;
   width: 400px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  background: rgba(255, 255, 255, 0.8); /* Color de fondo con opacidad (aquí 0.8) */
+  background-image: url('https://i.ibb.co/C6cm56B/ahora-si.png');
+  background-blend-mode: multiply; /* Opcional: combina la imagen con el color de fondo */
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://i.ibb.co/C6cm56B/ahora-si.png');
+  opacity: 0.9; /* Ajusta la opacidad de la imagen de fondo */
+  z-index: -1; /* Coloca la imagen de fondo detrás del contenido */
 }
 
 /* Estilos de las imágenes en el pie de la tarjeta */

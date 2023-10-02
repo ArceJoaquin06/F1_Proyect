@@ -55,10 +55,10 @@ function AlfaRomeo() {
                             </div>
                         </div>
                     </div>
-
-                    <label><Link style={Botonregresar1} to="/team">Regresar a Escuderias</Link></label>
+                    <div className="xd">
+                    <label><Link className="boton-return" style={Botonregresar1} to="/team">Regresar a Escuderias</Link></label>
                 </div>
-
+                </div>
             </div>
         </>
     );

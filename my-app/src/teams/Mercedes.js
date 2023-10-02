@@ -59,7 +59,9 @@ function Mercedes() {
 
                 <br></br>
                 <br></br>
-                <label><Link style={Botonregresar7} to="/team">Regresar a Escuderias</Link></label>
+                <div className="xd">
+                <label><Link className="boton-return" style={Botonregresar7} to="/team">Regresar a Escuderias</Link></label>
+                </div>
             </div>
         </div>
         </>

@@ -61,8 +61,10 @@ function Ferrari() {
 
                 <br></br>
                 <br></br>
-                <label><Link style={Botonregresar4} to="/team">Regresar a Escuderias</Link></label>
-            </div>
+                <div className="xd">
+                <label><Link className="boton-return" style={Botonregresar4} to="/team">Regresar a Escuderias</Link></label>
+                </div>
+                </div>
         </div>
         </>
     );

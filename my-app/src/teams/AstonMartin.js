@@ -59,8 +59,11 @@ function AstonMartin() {
 
                 <br></br>
                 <br></br>
-                <label><Link style={Botonregresar3} to="/team">Regresar a Escuderias</Link></label>
-            </div>
+                <div className="xd">
+                <label><Link className="boton-return"  style={Botonregresar3} to="/team">Regresar a Escuderias</Link></label>
+            
+                </div>
+                </div>
         </div>
         </>
     );

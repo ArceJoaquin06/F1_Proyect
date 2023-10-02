@@ -78,3 +78,24 @@
     padding-left: 20px;
     display: inline-block;
   }
+
+
+  .boton-return{
+  align-self: center;
+  display: inline-block;
+  padding: 10px 20px; /* Ajusta el espacio alrededor del enlace según tus preferencias */
+  background-color: #000000; /* Cambia este valor al color que desees */
+  color: white; /* Cambia el color del texto si es necesario */
+  text-decoration: none; /* Elimina la subrayado predeterminado del enlace */
+  border: 1px solid #007bff; /* Añade un borde alrededor del enlace */
+  border-radius: 5px; /* Redondea los bordes del enlace */
+  transition: background-color 0.3;
+  }
+
+  .boton-return:hover {
+    background-color: #2980b9; /* Cambia este color al que desees en hover */
+  }
+
+  .xd{
+    text-align: center;
+  }

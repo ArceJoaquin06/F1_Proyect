@@ -160,11 +160,5 @@ export default Escuderia;
 //link de la documentacion de las animaciones
 //https://animate.style/
 
-//para que se mueva a la izquierda
-//slideInLeft
-
-//para que se mueva a la derecha
-//slideInRight
-
 //pulse
 //zoomIn

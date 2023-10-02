@@ -3,46 +3,63 @@ import React, { Component } from "react";
 import moment from 'moment';
 import 'moment/locale/es';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
+import { useEffect } from 'react';
+import { useState } from "react";
+import axios from 'axios'
 
 moment.locale('es');
 
-const localizer = momentLocalizer(moment);
 
-const myEventsList = [
-  {
-    title: 'mi cumple waza',
-    start: new Date('2023-09-29 10:22:00'),
-    end: new Date('2023-09-29 10:42:00'),
-  },
-  {
-    title: 'messi',
-    start: new Date('2023-10-02 12:22:00'),
-    end: new Date('2023-10-02 13:42:00'),
-  },
-];
+function EventsCalendar() {
 
-class EventsCalendar extends Component {
-  render() {
-    return (
-      <div style={{ height: `${400}px` }} className="bigCalendar-container">
-        <Calendar
-          localizer={localizer}
-          events={myEventsList}
-          startAccessor="start"
-          endAccessor="end"
-          messages={{
-            next: 'sig',
-            previous: 'ant',
-            today: 'Hoy',
-            month: 'Mes',
-            week: 'Semana',
-            day: 'Día',
-          }}
-        />
-      </div>
-    );
-  }
+  const [Calendarios, SetCalendarios] = useState([]);
+  const [Eventos, SetEventos] = useState([]);
+
+  function agregarCircuito() {
+    axios.get("https://ergast.com/api/f1/current.json")
+    .then((response) => {
+      const races = response.data.MRData.RaceTable.Races;
+      const eventos = races.map((race) => ({
+        title: race.raceName,
+        start: new Date(race.date),
+        end: new Date(race.date),
+      }));
+      SetCalendarios(races);
+      SetEventos(eventos);
+    })
+    .catch((error) => console.log(error));
 }
+
+  useEffect(() => {
+    agregarCircuito();
+  })
+
+  const localizer = momentLocalizer(moment);
+
+  return (
+    <div style={{ height: `${400}px` }} className="bigCalendar-container">
+      <Calendar
+        localizer={localizer}
+        events={Eventos}
+        startAccessor="start"
+        endAccessor="end"
+        messages={{
+          next: 'sig',
+          previous: 'ant',
+          today: 'Hoy',
+          month: 'Mes',
+          week: 'Semana',
+          day: 'Día',
+        }}
+      />
+    </div>
+  );
+
+}
+
+
+
+
 
 export default EventsCalendar;
 

@@ -50,13 +50,13 @@ function Drivers(props){
         <>
  <div className="card">
     <div className="card-text">
-      <div>Nombre: {props.data.givenName} {props.data.familyName}</div>
+      <div><b>Nombre: {props.data.givenName} {props.data.familyName}</b></div>
       <br></br>
-      <div>Numero: {props.data.permanentNumber}</div>
+      <div><b>Numero: {props.data.permanentNumber}</b></div>
       <br></br>
-      <div>Nacionalidad: {props.data.nationality}</div>
+      <div><b>Nacionalidad: {props.data.nationality}</b></div>
       <br></br>
-      <div>Nacimiento: {props.data.dateOfBirth}</div>
+      <div><b>Nacimiento: {props.data.dateOfBirth}</b></div>
     </div>
     <img className="card-footer-img" src={fotopilot} alt={props.data.givenName} />
   </div>

@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import axios from 'axios';
 import './teams-css/AlphaTauri.css';
 import 'animate.css';
-import liamLaw from '.../public/LiamLawsinropa2.png';
 
 const Botonregresar = {
     color: 'white',
@@ -46,7 +45,7 @@ function AlphaTauri() {
                 <h3 className="subtitulo0"> Los pilotos actules son:</h3>
                 <div className="contaPilot">
                     <img className="imagen-yuki" class="animate__animated animate__slideInLeft" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5652.png&w=350&h=254" alt=""></img>
-                    <img className="imagen-liam" class="animate__animated animate__slideInRight" src={liamLaw} alt=""></img>
+                    <img className="imagen-liam" class="animate__animated animate__slideInRight"  src="https://i.ibb.co/6vbH8M5/Liam-Lawsinropa2.png" alt=""></img>
                 </div>
                 <div>
                     <div className="contaTitle">
@@ -77,7 +76,9 @@ function AlphaTauri() {
 
                 <br></br>
                 <br></br>
-                <label><Link style={Botonregresar} to="/team">Regresar a Escuderias</Link></label>
+                <div className="xd">
+                <label><Link className="boton-return" style={Botonregresar} to="/team">Regresar a Escuderias</Link></label>
+                </div>
             </div>
         </div>
         </>
