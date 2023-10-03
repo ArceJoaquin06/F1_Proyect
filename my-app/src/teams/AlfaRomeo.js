@@ -4,7 +4,7 @@ import './teams-css/AlfaRomeo.css'
 import 'animate.css';
 
 const Botonregresar1 = {
-    color: 'black',
+    color: 'white',
     textDecoration: 'none',
     fontWeight: 'bold',
 };

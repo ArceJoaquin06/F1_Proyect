@@ -24,6 +24,8 @@
 .texto{
   font-size: 20px;
   color: #7c839c;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .imagen-centar {

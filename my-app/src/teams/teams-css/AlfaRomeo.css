@@ -18,7 +18,9 @@
   .texto1{
     font-size: 20px;
     color: #000000;
-    text-align: center; 
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
   }
   .imagen-centra1{
     width: 100%; 
@@ -66,7 +68,6 @@
     color: #000000;
     display: inline-block;
   }
-  
   
   .texto-zhou{
     color: #000000;
