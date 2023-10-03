@@ -32,7 +32,7 @@ const botonFerrari = {
   }
 
   const botonHaas = {
-    width: '20vw',
+    width: '19.95vw',
     height: '44.25vh',
     border: 'none',
     cursor: 'pointer',
@@ -48,9 +48,8 @@ const botonFerrari = {
     background: 'url("https://i.pinimg.com/564x/01/17/2b/01172b8d7fb181ec0593d020fe621c3c.jpg") center/cover',
     color: 'transparent',
   }
-
   const botonAlfaRomeo = {
-    width: '20vw',
+    width: '19.9vw',
     height: '44.25vh',
     border: 'none',
     cursor: 'pointer',
@@ -77,7 +76,7 @@ const botonFerrari = {
   }
 
   const botonMercedes = {
-    width: '20vw',
+    width: '19.9vw',
     height: '44.25vh',
     border: 'none',
     cursor: 'pointer',
@@ -86,7 +85,7 @@ const botonFerrari = {
   }
 
   const botonAlphaTauri = {
-    width: '20vw',
+    width: '19.9vw',
     height: '44.25vh',
     border: 'none',
     cursor: 'pointer',
@@ -99,52 +98,52 @@ function Escuderia() {
     return (
       <>
         <div className="probar">
-         <label class="botonFerrari">
+         <label class="botonZoom">
             <div style={{ display: 'flex'}}>
-              <Link to="/ferrari" style={botonFerrari} class="animate__animated animate__bounce">charles</Link>
+              <Link to="/ferrari" style={botonFerrari}>charles</Link>
             </div>
          </label>
-          <label class="botonWilliams">
+          <label class="botonZoom">
             <div style={{ display: 'flex'}}>
               <Link to="/williams" style={botonWilliams}>charles</Link>
             </div>
           </label>
-          <label class="botonRedBull">
+          <label class="botonZoom">
             <div style={{ display: 'flex'}}> 
             <Link to="/redbull" style={botonRedBull}>charles</Link>
             </div>
           </label>
-          <label class="botonAlfaRomeo">
+          <label class="botonZoom">
             <div style={{ display: 'flex'}}>
               <Link to="/alfaromeo" style={botonAlfaRomeo}>charles</Link>
             </div>
           </label>
-          <label class="botonAston">
+          <label class="botonZoom">
             <div style={{ display: 'flex'}}>
               <Link to="/astonmartin" style={botonAston}>charles</Link>
             </div>
           </label>
-          <label class="botonHaas">
+          <label class="botonZoom">
             <div style={{ display: 'flex'}}>
               <Link to="/haas" style={botonHaas}>charles</Link>
             </div>
           </label>
-          <label class="botonMcLaren">
+          <label class="botonZoom">
             <div style={{ display: 'flex'}}>
               <Link to="/mclaren" style={botonMcLaren}>charles</Link>
             </div>
           </label>
-          <label class="botonMercedes">
+          <label class="botonZoom">
             <div style={{ display: 'flex'}}>
               <Link to="/mercedes" style={botonMercedes}>charles</Link>
             </div>
           </label>
-          <label class="botonAlphaTauri">
+          <label class="botonZoom">
             <div style={{ display: 'flex'}}>
               <Link to="/alphatauri" style={botonAlphaTauri}>charles</Link>
             </div>
           </label>
-          <label class="botonAlpine">
+          <label class="botonZoom">
             <div style={{ display: 'flex'}}>
               <Link to="/alpine" style={botonAlpine}>charles</Link>
             </div>

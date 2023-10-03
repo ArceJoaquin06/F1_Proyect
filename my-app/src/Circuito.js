@@ -50,7 +50,9 @@ function Circuito() {
     
     return (
       <>
-        <ComposableMap className="container1">
+      <div className="container1">
+        <h2>waza?</h2>
+        <ComposableMap>
         
           <Geographies geography={geoUrl}>
             {({ geographies }) =>
@@ -99,6 +101,7 @@ function Circuito() {
             </div>
           )}
         </ReactTooltip>
+        </div>
       </>
       )
     }

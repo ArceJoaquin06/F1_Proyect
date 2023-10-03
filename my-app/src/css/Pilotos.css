@@ -8,6 +8,14 @@
 
 .titulo-pil {
     text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: gold;
+}
+
+.titulo-pil1{
+    text-align: center;
     color: rgb(0, 0, 0);
     font-size: 36px;
     font-weight: bold;
@@ -39,4 +47,5 @@
     text-align: center;
     padding-left: 250px;
     padding-right: 250px;
+    color: gold;
 }

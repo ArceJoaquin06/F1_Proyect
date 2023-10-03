@@ -1,5 +1,6 @@
 import { Calendar, momentLocalizer } from 'react-big-calendar';
 import React, { Component } from "react";
+import './css/Calendario.css';
 import moment from 'moment';
 import 'moment/locale/es';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
@@ -38,7 +39,10 @@ function EventsCalendar() {
 
   return (
     <div style={{ height: `${400}px` }} className="bigCalendar-container">
+      <h2 className='titulo-cal'>¡Revisa nuestro calendario y enterate de las fechas de las carreras!</h2>
+      <br></br>
       <Calendar
+        className='esotilin'
         localizer={localizer}
         events={Eventos}
         startAccessor="start"
@@ -57,10 +61,6 @@ function EventsCalendar() {
 
 }
 
-
-
-
-
 export default EventsCalendar;
 
 //https://ergast.com/api/f1/2023
@@ -69,3 +69,6 @@ export default EventsCalendar;
 //react-big-calendar/lib/addons/dragAndDrop/styles
 //react-big-calendar/lib/sass/styles
 //se supone que esos son links para customizar el calendario
+
+//https://youtu.be/ZFhDJAOd9Tg
+//video para customizar
