@@ -6,7 +6,13 @@
     background-color: #f00b0b;
 }
 
+/* @font-face {
+    font-family: 'SQR721B';
+    src: url('./fonts/SQR721B.ttf') format('truetype');
+  } */
+
 .titulo-pil {
+    font-family: 'SQR721B', cursive;
     text-align: center;
     font-size: 36px;
     font-weight: bold;

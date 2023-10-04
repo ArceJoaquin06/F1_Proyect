@@ -35,7 +35,7 @@ function Circuito() {
     const [content, setcontent] = useState([]);
     const [imagenes, setimagenes] = useState([]);
 
-    const geoUrl = "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries.json"
+    const geoUrl = "https://raw.githubusercontent.com/topojson/world-atlas/master/img/countries.png"
 
     function agregarCircuito() {
         axios.get("http://ergast.com/api/f1/2023/circuits.json")
@@ -51,7 +51,8 @@ function Circuito() {
     return (
       <>
       <div className="container1">
-        <h2>waza?</h2>
+        <h2 className='titulo-cir'>¡Chequea donde están todos los circuitos de este año!</h2>
+        <h4 className="textCir"><i>Varios de los pilotos más grandes compiten en los circuitos mas emocionantes del planeta, ¡Descubre donde quedan!</i></h4>
         <ComposableMap>
         
           <Geographies geography={geoUrl}>

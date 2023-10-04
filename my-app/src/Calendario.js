@@ -11,6 +11,19 @@ import axios from 'axios'
 moment.locale('es');
 
 
+const eventStyleGetter = (event, start, end, isSelected) => {
+  const style = {
+    backgroundColor: '#989898', // Define el color de fondo que desees para los días
+    color: '', // Color del texto
+    borderRadius: '0px', // Bordes redondeados si lo deseas
+    border: 'none', // Borde si lo deseas
+  };
+
+  return {
+    style
+  };
+};
+
 function EventsCalendar() {
 
   const [Calendarios, SetCalendarios] = useState([]);
@@ -38,11 +51,15 @@ function EventsCalendar() {
   const localizer = momentLocalizer(moment);
 
   return (
-    <div style={{ height: `${400}px` }} className="bigCalendar-container">
-      <h2 className='titulo-cal'>¡Revisa nuestro calendario y enterate de las fechas de las carreras!</h2>
+    <>
+    <div className="repezza">
+    <h2 className='titulo-cal'>¡Revisa nuestro calendario y enterate de las fechas de las carreras!</h2>
+    <div style={{ height: `${400}px`}} className="bigCalendar-container">
+      
       <br></br>
-      <Calendar
-        className='esotilin'
+
+   
+      <Calendar className="calendar-container"
         localizer={localizer}
         events={Eventos}
         startAccessor="start"
@@ -55,8 +72,12 @@ function EventsCalendar() {
           week: 'Semana',
           day: 'Día',
         }}
+        eventPropGetter={eventStyleGetter}
       />
+      
     </div>
+    </div>
+    </>
   );
 
 }

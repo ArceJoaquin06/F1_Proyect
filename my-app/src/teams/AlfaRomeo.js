@@ -26,8 +26,8 @@ function AlfaRomeo() {
                     </div>
                     <h3 className="subtitulo1"> Los pilotos actules son:</h3>
                     <div className="contaPilot">
-                        <img className="imagen-bottas" class="animate__animated animate__slideInLeft" src="https://sportsbase.io/images/gpfans/copy_380x388/bdcddb7c11c9895ac2e74a6a1327835de9a01bf7.png" alt=""></img>
-                        <img className="imagen-zhou" class="animate__animated animate__slideInRight" src="https://sportsbase.io/images/gpfans/copy_380x388/c3d34ab3cb4148cc8b94259945233d7c2b20b509.png" alt=""></img>
+                        <img className="imagen-bottas" class="animate__animated animate__slideInLeft" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/4520.png&w=350&h=254" alt=""></img>
+                        <img className="imagen-zhou" class="animate__animated animate__slideInRight" src="https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/5682.png&w=350&h=254" alt=""></img>
                     </div>
                     <div>
                         <div className="contaTitle">

@@ -1,12 +1,115 @@
 .probar{
-    display: flex;
-    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #0bf0a4;
+    background-image: "https://cdn-3.latimages.com/images/mgl/4bARJ/s4/1015121604-PIO-CatellaD_N073.jpg";
 }
 
-.botonZoom{
+.botonFerrari:hover {
+    transform: scale(0.85); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.botonAlphaTauri:hover {
+    transform: scale(0.85); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.botonWilliams:hover {
+    transform: scale(0.85); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.botonMercedes:hover {
+    transform: scale(0.85); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.botonAlpine:hover {
+    transform: scale(0.85); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.botonRedBull:hover {
+    transform: scale(0.85); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.botonAlfaRomeo:hover {
+    transform: scale(0.85); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.botonAston:hover {
+    transform: scale(0.85); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.botonMcLaren:hover {
+    transform: scale(0.85); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.botonHaas:hover {
+    transform: scale(0.85); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.botonRedBull {
+    position: absolute;
+    top: 359px; 
+    left: 0px; 
     transition: transform .2s; /* Animation */
 }
 
-.botonZoom:hover {
-    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.botonAlfaRomeo {
+    position: absolute;
+    top: 359px; 
+    left: 276px;
+    transition: transform .2s; /* Animation */ 
+}
+
+.botonAston {
+    position: absolute;
+    top: 359px;
+    left: 545px; 
+    transition: transform .2s; /* Animation */
   }
+
+.botonMcLaren {
+    position: absolute;
+    top: 359px; 
+    left:  822px; 
+    transition: transform .2s; /* Animation */
+}
+
+.botonHaas {
+    position: absolute;
+    top: 359px;
+    left: 1086px; 
+    transition: transform .2s; /* Animation */
+}
+
+.botonAlphaTauri {
+    position: absolute;
+    top: 73px; 
+    left:  0px;
+    transition: transform .2s; /* Animation */
+}
+
+  .botonFerrari {
+    position: absolute;
+    top: 73px;
+    left: 276px;
+    transition: transform .2s; /* Animation */
+}
+
+.botonMercedes {
+    position: absolute;
+    top: 73px; 
+    left:  545px;
+    transition: transform .2s; /* Animation */
+}
+
+.botonWilliams {
+    position: absolute;
+    top: 73px;
+    left: 816px;
+    transition: transform .2s; /* Animation */
+}
+
+.botonAlpine {
+    position: absolute;
+    top: 73px;
+    left:  1086px;
+    transition: transform .2s; /* Animation */
+}
