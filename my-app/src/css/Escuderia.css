@@ -1,7 +1,8 @@
 .probar{
     justify-content: center;
-    background-color: #0bf0a4;
-    background-image: "https://cdn-3.latimages.com/images/mgl/4bARJ/s4/1015121604-PIO-CatellaD_N073.jpg";
+    min-height: 88.7vh;
+    background-color: #ffffff;
+    background-image: url('https://i.ibb.co/C6cm56B/ahora-si.png');
 }
 
 .botonFerrari:hover {

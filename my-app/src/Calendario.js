@@ -54,6 +54,7 @@ function EventsCalendar() {
     <>
     <div className="repezza">
     <h2 className='titulo-cal'>¡Revisa nuestro calendario y enterate de las fechas de las carreras!</h2>
+    <h4 className="textCal"><i>¡Aquí puedes revisar día y horario de la competición con las carreras más emocionantes!.</i></h4>
     <div style={{ height: `${400}px`}} className="bigCalendar-container">
       
       <br></br>

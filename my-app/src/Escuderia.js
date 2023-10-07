@@ -23,7 +23,7 @@ const botonFerrari = {
 
   const botonMcLaren = {
     width: '264px',
-    height: '286px',
+    height: '290px',
     border: 'none',
     cursor: 'pointer',
     background: 'url("https://i.pinimg.com/564x/2d/62/ea/2d62ea3c23f6c6123863de980e958b1f.jpg") center/cover',
@@ -32,7 +32,7 @@ const botonFerrari = {
 
   const botonHaas = {
     width: '278px',
-    height: '286px',
+    height: '290px',
     border: 'none',
     cursor: 'pointer',
     background: 'url("https://i.pinimg.com/564x/d8/23/ff/d823ff42ba8007e37fecef224c611653.jpg") center/cover',
@@ -41,7 +41,7 @@ const botonFerrari = {
 
   const botonAston = {
     width: '278px',
-    height: '286px',
+    height: '290px',
     border: 'none',
     cursor: 'pointer',
     background: 'url("https://i.pinimg.com/564x/01/17/2b/01172b8d7fb181ec0593d020fe621c3c.jpg") center/cover',
@@ -49,7 +49,7 @@ const botonFerrari = {
   }
   const botonAlfaRomeo = {
     width: '278px',
-    height: '286px',
+    height: '290px',
     border: 'none',
     cursor: 'pointer',
     background: 'url("https://i.pinimg.com/564x/9c/6a/56/9c6a56c5c1992847b9d863780bc82019.jpg") center/cover',
@@ -58,7 +58,7 @@ const botonFerrari = {
 
   const botonRedBull = {
     width: '278px',
-    height: '286px',
+    height: '290px',
     border: 'none',
     cursor: 'pointer',
     background: 'url("https://i.pinimg.com/564x/42/b7/0d/42b70df0294860a892c33975d6297676.jpg") center/cover',
