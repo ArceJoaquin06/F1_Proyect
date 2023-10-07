@@ -35,7 +35,7 @@ function Circuito() {
     const [content, setcontent] = useState([]);
     const [imagenes, setimagenes] = useState([]);
 
-    const geoUrl = "https://raw.githubusercontent.com/topojson/world-atlas/master/img/countries.png"
+    const geoUrl = "https://unpkg.com/world-atlas@1.1.4/world/110m.json"
 
     function agregarCircuito() {
         axios.get("http://ergast.com/api/f1/2023/circuits.json")
