@@ -10,7 +10,6 @@ const botonFerrari = {
     cursor: 'pointer',
     background: 'url("https://i.pinimg.com/564x/71/79/1f/71791fa9ef030a75e32393c159c31d27.jpg") center/cover',
     color: 'transparent',
-    
   }
 
   const botonWilliams = {
