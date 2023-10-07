@@ -1,5 +1,31 @@
-.container1 {
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
     background-color: #0092c4;
+}
+
+.container1 {
+    min-height: 100vh; /* 100% de la altura de la ventana */
+    background-color: #0092c4;
+}
+
+.titulo-cir{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: rgb(255, 165, 47);
+}
+
+.textCir{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    color: rgb(255, 165, 47);
 }
 
 .titulo {

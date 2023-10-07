@@ -1,7 +1,7 @@
 .fondo9 {
     display: flex;
     height: 280vh;
-    background: #df6fe9;
+    background: linear-gradient(to right,#365b77, #2d5777, #4e95cc,#3da1ee);
 }
 
 .titulo9 {
